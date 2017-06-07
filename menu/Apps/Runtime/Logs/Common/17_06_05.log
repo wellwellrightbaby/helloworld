@@ -1,0 +1,42 @@
+[ 2017-06-05T19:22:04+08:00 ] ::1 /menu/index.php/motaiimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+ERR: 无法加载模块:Motaiimg
+
+[ 2017-06-05T19:22:04+08:00 ] ::1 /menu/index.php/img/foot/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-05T19:22:06+08:00 ] ::1 /menu/index.php/img/foot/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-05T19:22:06+08:00 ] ::1 /menu/index.php/img/foot/3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-05T19:22:06+08:00 ] ::1 /menu/index.php/img/foot/4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001065s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-05T22:47:11+08:00 ] ::1 /menu/index.php/motaiimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+ERR: 无法加载模块:Motaiimg
+
+[ 2017-06-05T22:47:11+08:00 ] ::1 /menu/index.php/motaiimg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+ERR: 无法加载模块:Motaiimg
+

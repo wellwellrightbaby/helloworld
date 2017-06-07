@@ -1,0 +1,311 @@
+<extend name="Base/common"/>
+<block name="body">
+<!--中文-->
+<script src="__PUBLIC__/Admin/Bootstrap/js/bootstrap-table-zh-CN.js" type="text/javascript" ></script>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div id="toolbar">
+                <div class="btn btn-primary" data-toggle="modal" data-target="#addModal">
+                    <span class="icon-plus" aria-hidden="true"></span>新建菜谱</div>
+            </div>
+            <!--表格start-->
+            <table id="table" data-toggle="table"
+                   data-striped ="true"
+                   data-toolbar="#toolbar"
+                   data-pagination="true"
+                   data-page-size="8">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th data-field="1">菜谱名称</th>
+                    <th data-field="2">菜谱图片</th>
+                    <th data-field="3">菜谱介绍</th>
+                    <th data-field="4">菜系</th>
+                    <th data-field="5">菜谱价格</th>
+                    <th data-field="6">操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <volist name="new_list" id="arr">
+                    <tr>
+                        <td>{$arr.foodid}</td>
+                        <td>{$arr.foodname}</td>
+                        <td>{$arr.foodurl}</td>
+                        <td>{$arr.foodintroduce}</td>
+                        <td>{$arr.name}</td>
+                        <td>{$arr.foodprice}</td>
+                        <td>
+                            <a class="btn btn-sm btn-primary" href="javascript:void(0)" onclick="editInfo(this);">
+                                <span class="icon-pencil" aria-hidden="true"></span>修改</a>
+                            <a class="btn btn-sm btn-success" href="{:U('detail',array('FoodId'=>$arr['foodid']))}">
+                                <span class="icon-edit" aria-hidden="true"></span>查看</a>
+                            <a  class="btn btn-sm btn-danger"  href="javascript:void(0)" onclick="delInfo(this);">
+                                <span class="icon-remove" aria-hidden="true"></span>删除</a>
+                        </td>
+                    </tr>
+                </volist>
+                </tbody>
+            </table>
+            <!--表格end-->
+        </div>
+    </div>
+
+    <!--新建菜谱的触发框start-->
+    <div class="modal fade" id="addModal"  role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <form action="{:U('Menu/create')}" method="post" enctype="multipart/form-data">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">添加菜谱</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="hidden" name="id" id="id" value="{$FoodId}"/>
+                        <label>菜谱名称</label>
+                        <input type="text"  class="form-control" name="name"   placeholder="请输入名称"/>
+                    </div>
+                    <div class="form-group">
+                        <label>菜谱图片</label>
+                        <input type="file"  class="form-control" name="photo"/>
+                    </div>
+                    <div class="form-group">
+                        <label>菜谱介绍</label>
+                        <input type="text"  class="form-control" name="introduce"   placeholder="请输入菜谱介绍"/>
+                    </div>
+                    <div class="form-group">
+                        <label>选择菜系</label>
+                        <!--<input type="text"  class="form-control" name="add_item"   placeholder="请填写菜系对应的数字"/>-->
+                        <select name="add_item" id="add_item" class="form-control" name="item">
+                            <volist name="list" id="arr">
+                                <option value="{$arr.fooditemid}">{$arr.fooditemname}</option>
+                            </volist>
+                        </select>
+                        <!--<volist name="list" id="arr">-->
+                            <!--<li>{$arr.fooditemid}:{$arr.fooditemname}</li>-->
+                        <!--</volist>-->
+                    </div>
+                    <div class="form-group">
+                        <label>菜谱价格</label>
+                        <input type="text"  class="form-control" name="price"   placeholder="请输入价格"/>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn  btn-success " id="submit" > 保存</button>
+                    <button type="button" class="btn  btn-default "  data-dismiss="modal">取消</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    <!--新建栏目的触发框end-->
+
+    <!-- 修改菜谱触发框start-->
+    <div class="modal fade" id="upModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">修改信息</h4>
+                </div>
+
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="hidden" name="id" id="up_id"  />
+                        <label>菜谱名称</label>
+                        <input type="text"  class="form-control" id="up_name" name="foodname" />
+                    </div>
+                    <div class="form-group">
+                        <label>菜谱介绍</label>
+                        <input type="text"  class="form-control" id="up_introduce" name="introduce" />
+                    </div>
+                    <!--<div class="form-group">-->
+                        <!--<label>选择菜系</label>-->
+                        <!--<select name="add_item" id="up_item" class="form-control">-->
+                            <!--<volist name="list" id="arr">-->
+                                <!--<option value="{$arr.fooditemid}">{$arr.fooditemname}</option>-->
+                            <!--</volist>-->
+                        <!--</select>-->
+                    <!--</div>-->
+                    <div class="form-group">
+                        <label>菜谱价格</label>
+                        <input type="text"  class="form-control" id="up_price" name="price"  />
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn  btn-success " id="btn_up" >保存</button>
+                    <button type="button" class="btn  btn-default "  data-dismiss="modal">取消</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- 修改菜谱模态框end-->
+
+
+    <!-- 删除触发框start-->
+    <div class="modal fade" id="delModal"  role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">操作提示</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <input type="hidden" name="id" id="del_id"  />
+                        <span class="icon-exclamation-sign  icon-large" aria-hidden="true"></span> 你确定要删除吗？
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn  btn-primary " id="btn_del" >确定</button>
+                    <button type="button" class="btn  btn-default "  data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    // 触发修改模态框的同时调用此方法
+    function editInfo(obj) {
+    var tds = $(obj).parent().parent().find('td');
+    $('#up_id').val(tds.eq(0).text());
+    $('#up_name').val(tds.eq(1).text());
+    $('#up_introduce').val(tds.eq(3).text());
+    $('#up_price').val(tds.eq(5).text());
+    $('#upModal').modal('show');
+    }
+
+    // 触发删除模态框的同时调用此方法
+    function delInfo(obj) {
+    var tds = $(obj).parent().parent().find('td');
+    $('#del_id').val(tds.eq(0).text());
+    $('#delModal').modal('show');
+    }
+
+    //删除ajax交互
+    $(function () {
+        $('#btn_del').click(function (event) {
+            //获取模态框数据
+            var id = $('#del_id').val();
+            $.ajax({
+                type: "post",
+                url: "__URL__/del",
+                data: {FoodId: id},
+                dataType: 'text',
+                contentType: "application/x-www-form-urlencoded; charset=utf-8",
+                success: function (data) {
+                    $('#delModal').modal('hide');
+                    var obj = new Function("return" + data)();
+                    alert(obj.info);
+                    location.reload();
+                }
+
+            });
+
+        });
+    });
+    //删除ajax交互end
+
+    //修改菜谱ajax交互
+    $(function(){
+        $('#btn_up').click(function(event){
+
+            var id = $('#up_id').val();
+            var foodname = $('#up_name').val();
+            var introduce = $('#up_introduce').val();
+            var price = $('#up_price').val();
+            if(foodname==""){
+                alert("菜谱名称不能为空！");
+                $("#up_name").focus();
+                return false;
+            }
+            if(introduce==""){
+                alert("菜谱介绍不能为空！");
+                $("#up_introduce").focus();
+                return false;
+            }
+            if(price==""){
+                alert("菜谱价格不能为空！");
+                $("#up_price").focus();
+                return false;
+            }
+            $.ajax({
+                type: "post",
+                url: "__URL__/update",
+                data:  {FoodId:id,FoodName:foodname,FoodIntroduce:introduce,FoodPrice:price},
+                dataType: 'text',
+                contentType: "application/x-www-form-urlencoded; charset=utf-8",
+                success: function(data) {
+                    $('#upModal').modal('hide');
+                    var obj = new Function("return" + data)();console.log(111);
+//                     alert();
+                    alert(obj.info);
+                    location.reload();
+                }
+
+            });
+
+        });
+    });
+
+
+    //添加栏目ajax交互
+    $(function(){
+        $('#btn_add').click(function(event){
+            //获取数据
+            var id = $('#id').val();
+            var foodName = $('#foodName').val();
+            var a_introduce = $('#add_introduce').val();
+            var a_item = $('#add_item').val();
+            var foodPrice = $('#foodPrice').val();
+            if(foodName==""){
+                alert("菜谱名称不能为空！");
+                $("#foodName").focus();
+                return false;
+            }
+            if(a_introduce==""){
+                alert("菜谱介绍不能为空！");
+                $("#add_introduce").focus();
+                return false;
+            }
+            if(a_item==""){
+                alert("菜系不能为空！");
+                $("#add_item").focus();
+                return false;
+            }
+            if(foodPrice==""){
+                alert("菜谱价格不能为空！");
+                $("#foodPrice").focus();
+                return false;
+            }
+            $.ajax({
+                type: "post",
+                url: "__URL__/create",
+                data: {FoodId:id,FoodName:foodName,FoodIntroduce:a_introduce,FoodItemId:a_item,FoodPrice:foodPrice},
+                dataType: 'text',
+                contentType: "application/x-www-form-urlencoded; charset=utf-8",
+                success: function(data) {
+                    $('#addModal').modal('hide');
+                    var obj = new Function("return" + data)();
+                    alert(obj.info);
+                    //刷新
+                    location.reload();
+                }
+
+            });
+
+        });
+    });
+</script>
+</block>

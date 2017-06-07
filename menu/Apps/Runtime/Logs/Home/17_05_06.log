@@ -1,0 +1,344 @@
+[ 2017-05-06T11:53:40+08:00 ] ::1 /menu/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024335s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:4.3339s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined variable: umdata D:\wamp\www\menu\Apps\Runtime\Cache\Home\400c995c330f1f6ecac6b9102849eb7e.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.367259s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.367472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.053679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.053889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027339s ]
+
+[ 2017-05-06T11:53:43+08:00 ] ::1 /menu/index.php/Home/img/foot/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2017-05-06T11:53:44+08:00 ] ::1 /menu/index.php/Home/img/foot/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+
+[ 2017-05-06T11:53:44+08:00 ] ::1 /menu/index.php/Home/img/foot/4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001543s ]
+
+[ 2017-05-06T11:53:44+08:00 ] ::1 /menu/index.php/Home/img/foot/3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001750s ]
+
+[ 2017-05-06T11:53:44+08:00 ] ::1 /menu/index.php/Home/img/foot/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+
+[ 2017-05-06T14:13:37+08:00 ] ::1 /menu/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007351s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.4335s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: umdata D:\wamp\www\menu\Apps\Runtime\Cache\Home\400c995c330f1f6ecac6b9102849eb7e.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.038078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.038228s ]
+
+[ 2017-05-06T14:13:37+08:00 ] ::1 /menu/index.php/Home/img/foot/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004167s ]
+
+[ 2017-05-06T14:13:37+08:00 ] ::1 /menu/index.php/Home/img/foot/4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+
+[ 2017-05-06T14:13:37+08:00 ] ::1 /menu/index.php/Home/img/foot/3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+
+[ 2017-05-06T14:13:37+08:00 ] ::1 /menu/index.php/Home/img/foot/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+
+[ 2017-05-06T14:13:37+08:00 ] ::1 /menu/index.php/Home/img/foot/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+
+[ 2017-05-06T14:14:09+08:00 ] ::1 /menu/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.0609s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Undefined variable: umdata D:\wamp\www\menu\Apps\Runtime\Cache\Home\400c995c330f1f6ecac6b9102849eb7e.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001905s ]
+
+[ 2017-05-06T14:14:09+08:00 ] ::1 /menu/index.php/Home/img/foot/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+
+[ 2017-05-06T14:14:09+08:00 ] ::1 /menu/index.php/Home/img/foot/4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+
+[ 2017-05-06T14:14:09+08:00 ] ::1 /menu/index.php/Home/img/foot/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+
+[ 2017-05-06T14:14:09+08:00 ] ::1 /menu/index.php/Home/img/foot/3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2017-05-06T14:14:11+08:00 ] ::1 /menu/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: umdata D:\wamp\www\menu\Apps\Runtime\Cache\Home\400c995c330f1f6ecac6b9102849eb7e.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2017-05-06T14:14:11+08:00 ] ::1 /menu/index.php/Home/img/foot/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+
+[ 2017-05-06T14:14:11+08:00 ] ::1 /menu/index.php/Home/img/foot/4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-05-06T14:14:11+08:00 ] ::1 /menu/index.php/Home/img/foot/3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+
+[ 2017-05-06T14:14:11+08:00 ] ::1 /menu/index.php/Home/img/foot/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001987s ]
+
+[ 2017-05-06T14:14:12+08:00 ] ::1 /menu/index.php/Home/Menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `think_usermessage` [ RunTime:0.0825s ]
+SQL: SELECT * FROM `think_usermessage`  [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000718s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2017-05-06T14:14:12+08:00 ] ::1 /menu/index.php/Home/img/foot/4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-05-06T14:14:12+08:00 ] ::1 /menu/index.php/Home/img/foot/3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+
+[ 2017-05-06T14:14:12+08:00 ] ::1 /menu/index.php/Home/img/foot/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+
+[ 2017-05-06T14:14:12+08:00 ] ::1 /menu/index.php/Home/img/foot/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-05-06T14:14:13+08:00 ] ::1 /menu/index.php/Home/RoomBook
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2017-05-06T14:14:13+08:00 ] ::1 /menu/index.php/Home/img/foot/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+
+[ 2017-05-06T14:14:13+08:00 ] ::1 /menu/index.php/Home/img/foot/4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+
+[ 2017-05-06T14:14:13+08:00 ] ::1 /menu/index.php/Home/img/foot/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004955s ]
+
+[ 2017-05-06T14:14:13+08:00 ] ::1 /menu/index.php/Home/img/foot/3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+
+[ 2017-05-06T14:14:15+08:00 ] ::1 /menu/index.php/Home/OnesMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2017-05-06T14:14:15+08:00 ] ::1 /menu/index.php/Home/img/foot/4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+
+[ 2017-05-06T14:14:15+08:00 ] ::1 /menu/index.php/Home/img/foot/3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+
+[ 2017-05-06T14:14:15+08:00 ] ::1 /menu/index.php/Home/img/foot/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+
+[ 2017-05-06T14:14:15+08:00 ] ::1 /menu/index.php/Home/img/foot/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-06T14:14:15+08:00 ] ::1 /menu/index.php/Home/AboutUs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000353s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2017-05-06T14:14:15+08:00 ] ::1 /menu/index.php/Home/img/foot/4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-05-06T14:14:15+08:00 ] ::1 /menu/index.php/Home/img/foot/3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+
+[ 2017-05-06T14:14:15+08:00 ] ::1 /menu/index.php/Home/img/foot/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001361s ]
+
+[ 2017-05-06T14:14:15+08:00 ] ::1 /menu/index.php/Home/img/foot/1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+

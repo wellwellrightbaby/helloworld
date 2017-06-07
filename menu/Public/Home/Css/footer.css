@@ -1,0 +1,17 @@
+/*--底部样式--*/
+.f_footer{
+    width:85%;
+    margin:0 auto;
+    text-align: center;
+}
+.f_p1{
+    color:#666;
+    font-size:1px;
+}
+.f_p2 ,.f_p2 > a{
+    color:#999;
+    font-size:1px;
+    margin:5px 5px;
+}
+
+/*--/底部样式--*/

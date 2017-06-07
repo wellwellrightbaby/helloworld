@@ -1,0 +1,65 @@
+<extend name="Base/common"/>
+<block name="head">
+<script src="__PUBLIC__/Home/Js/smoothproducts.min.js" type="text/javascript" ></script>
+<script src="__PUBLIC__/Home/Js/jquery-3.2.0.min.js" type="text/javascript" ></script>
+<link rel="stylesheet" href="__PUBLIC__/Home/Css/smoothproducts.css">
+
+</block>
+
+<block name="body">
+
+
+<div class="pagep">
+
+
+	<ul class="ulul">
+		<li class="showimg"><img src="{$showurl}" alt="hello"></li>
+		<li class="showfont">
+			<ul>
+				<li>商品名称：{$showname} <br></li>
+				<li>商品价格：{$showprice}.00元 <br></li>
+				<li>商品介绍：{$showintroduce} <br></li>
+				<li>菜系：{$showitemid} <br></li>
+				<li><button  class="menu_button menu_button1" id><a href="{:U('Shop/joincart',array('id'=>$showid))}">加入购物车</a></button></li>
+				<li><button  class="menu_button menu_button1" id><a href="{:U('Shop/joinsave',array('id'=>$showid))}">加入个性菜谱</a></button></li>
+			</ul>
+		</li>
+	</ul>
+	<div style="clear:both;"></div>
+
+	<div class="comment"><p class="comment_p"><span>评论区</span></p>
+
+	<fieldset>
+	<p  style="margin-left:10px;" class="say">对于 <font style="color:blue;"> {$showname}</font>，您的评论是：</p>
+	<form action="{:U('xiangqingshow/comment',array('showid'=>$showid))}">
+		<textarea name="commentthing" id="commentthing" cols="100" rows="5" style="margin-left:10px;"></textarea>
+		<button class="menu_button menu_button2">提交</button></fieldset>
+	</form>
+	<table style="width:100%">
+		<th>食物名称</th>
+		<th>评论内容</th>
+		<th>评论时间</th>
+		<th>用户</th>
+		
+	<volist name="com" id="sc">
+                <tr >
+                    <td class="com_tr2"  style="text-align:center;">{$sc.foodname}</td>
+                    <td class="menu_list com_tr" style="text-align:center;">{$sc.comment}</td>
+					<td class="com_tr2" style="text-align:center;">{$sc.commenttime}</td>
+					<td class="com_tr2" style="text-align:center;"> <font style="color:blue;">{$sc.username}</font></td>
+                </tr>
+
+    </volist></table>
+
+
+	</div>
+
+
+
+</div>
+
+
+
+
+	
+</block>

@@ -1,0 +1,15 @@
+.onesmenu{
+    width:80%;
+    margin:0 auto;
+}
+
+.onesmenu_aside{
+    width:10%;
+    float:left;
+}
+
+
+.onesmenu_table{
+    width:80%;
+    float:right;
+}

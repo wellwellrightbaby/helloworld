@@ -1,0 +1,188 @@
+<extend name="Base/common"/>
+
+<block name="head">
+</block>
+
+<block name="body">
+<div class="menu">
+
+<!-- <aside class="menu_aside">
+        <div class="container">
+            <nav>
+                <ul class="mcd-menu">
+                    <li>
+                        <a href="#discount_today">
+                            <i class="fa fa-home"></i>
+                            <strong>今日特惠</strong>
+                            <small>Discount Today</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="active">
+                            <i class="fa fa-edit"></i>
+                            <strong>推荐食谱</strong>
+                            <small>sweet home</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-gift"></i>
+                            <strong>Features</strong>
+                            <small>sweet home</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-globe"></i>
+                            <strong>News</strong>
+                            <small>sweet home</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-comments-o"></i>
+                            <strong>Blog</strong>
+                            <small>what they say</small>
+                        </a>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-globe"></i>Mission</a></li>
+                            <li>
+                                <a href="#"><i class="fa fa-group"></i>Our Team</a>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-female"></i>Leyla Sparks</a></li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-male"></i>Gleb Ismailov</a>
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-leaf"></i>About</a></li>
+                                            <li><a href="#"><i class="fa fa-tasks"></i>Skills</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-female"></i>Viktoria Gibbers</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><i class="fa fa-trophy"></i>Rewards</a></li>
+                            <li><a href="#"><i class="fa fa-certificate"></i>Certificates</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-picture-o"></i>
+                            <strong>Portfolio</strong>
+                            <small>sweet home</small>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+    </aside>
+ -->
+    <div class="discount_scroll" >
+        <div id="discount_today" style="text-align:center; margin:10px 0;"><h3>今日特惠</h3><br></div>
+        <!-- "discount_prev page" link -->
+        <a class="discount_prev" href="#"><</a>
+        <div class="discount_box">
+            <div class="discount_scroll_list">
+                <ul>
+                    <li><a href="{:U('Xiangqingshow/index',array('showid'=>'6'))}"><img src="__PUBLIC__/Home/img/meishi/6.jpg"></a></li>
+                    <li><a href="{:U('Xiangqingshow/index',array('showid'=>'9'))}"><img src="__PUBLIC__/Home/img/meishi/9.jpg"></a></li>
+                    <li><a href="{:U('Xiangqingshow/index',array('showid'=>'12'))}"><img src="__PUBLIC__/Home/img/meishi/12.jpg"></a></li>
+                    <li><a href="{:U('Xiangqingshow/index',array('showid'=>'15'))}"><img src="__PUBLIC__/Home/img/meishi/15.jpg"></a></li>
+                    <li><a href="{:U('Xiangqingshow/index',array('showid'=>'18'))}"><img src="__PUBLIC__/Home/img/meishi/18.jpg"></a></li>
+                    <li><a href="{:U('Xiangqingshow/index',array('showid'=>'21'))}"><img src="__PUBLIC__/Home/img/meishi/21.jpg"></a></li>
+                    <li><a href="{:U('Xiangqingshow/index',array('showid'=>'3'))}"><img src="__PUBLIC__/Home/img/meishi/3.jpg"></a></li>
+                    <li><a href="{:U('Xiangqingshow/index',array('showid'=>'1'))}"><img src="__PUBLIC__/Home/img/meishi/1.jpg"></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- "discount_next page" link -->
+        <a class="discount_next" href="#">></a>
+    </div>
+    <br><br>
+
+    <script type="text/javascript">
+        $(function(){
+            var page= 1;
+            var i = 4;
+            $(".discount_next").click(function(){
+                var v_wrap = $(this).parents(".discount_scroll");
+                var v_show = v_wrap.find(".discount_scroll_list");
+                var v_cont = v_wrap.find(".discount_box");
+                var v_width = v_cont.width();
+                var len = v_show.find("li").length;
+                var page_count = Math.ceil(len/i);
+                if(!v_show.is(":animated")){
+                    if(page == page_count){
+                        v_show.animate({left:'0px'},"slow");
+                        page =1;
+                    }else{
+                        v_show.animate({left:'-='+v_width},"slow");
+                        page++;
+                    }
+                }
+            });
+
+            $(".discount_prev").click(function(){
+                var v_wrap = $(this).parents(".discount_scroll");
+                var v_show = v_wrap.find(".discount_scroll_list");
+                var v_cont = v_wrap.find(".discount_box");
+                var v_width = v_cont.width();
+                var len = v_show.find("li").length;
+                var page_count = Math.ceil(len/i);
+                if(!v_show.is(":animated")){
+                    if(page == 1){
+                        v_show.animate({left:'-='+ v_width*(page_count-1)},"slow");
+                        page =page_count;
+                    }else{
+                        v_show.animate({left:'+='+ v_width},"slow");
+                        page--;
+                    }
+                }
+            });
+        });
+    </script>
+
+    <table style="text-align: center;margin:10px auto;" class="menu_table">
+        <tr>
+            <th>今日美食</th>
+            <th>名称</th>
+            <th>介绍</th>
+            <th>商品价格</th>
+            <th>操作</th>
+        </tr>
+
+        <volist name="data" id="vo">
+            <tr  class="menu_list">
+                <td><a href="{:U('Xiangqingshow/index',array('showid'=>$vo['foodid']))}"><img src="{$vo.foodurl}" alt="dilicious" class="menu_img"></a></td>
+                <td><a href="{:U('Xiangqingshow/index',array('showid'=>$vo['foodid']))}">{$vo.foodname}</a></td>
+                <td>{$vo.foodintroduce}</td>
+                <td>{$vo.foodprice}.00</td>
+                
+                <td><button  class="menu_button menu_button1" id><a href="{:U('Shop/joincart',array('id'=>$vo['foodid']))}">加入购物车</a></button>
+                    <button class="menu_button menu_button2"><a href="{:U('Shop/joinsave',array('id'=>$vo['foodid']))}">加入个性菜谱</a></button></td>
+            </tr>
+
+        </volist>
+        <tr><td colspan="5"><br>
+        <div class="pages">
+            {$page}</td></tr>
+        </div>
+    
+    </table>
+    
+
+    <div style="text-align:center;clear:both"></div>
+
+
+</div>
+
+    <script>
+        $(window).scroll(function () {
+
+            var x=$('.menu_aside').offset().top;
+    
+        });
+
+    </script>
+</block>

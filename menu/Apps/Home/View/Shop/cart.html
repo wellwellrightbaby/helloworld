@@ -1,0 +1,50 @@
+<extend name="Base/common"/>
+<block name="head">
+
+</block>
+<block name="body">
+<h1>我的购物车</h1>
+<div class="onesmenu">
+
+        <table style="text-align: center;" class="page">
+            <tr>
+            <br>
+                <th>选择</th>
+
+                <th>购物车美食</th>
+                <th>名称</th>
+                <th>商品介绍</th>
+                <th>价格</th>
+                <th>操作</th>
+            </tr>
+        <form action="{:U('Shop/jiesuanmore')}">
+
+            <volist name="cart1" id="cart1">
+                            <tr  class="menu_list">
+                    <td><input type="checkbox" value="{$cart1.foodid}" name='idid[]'></td>
+                    <td><a href="{:U('Xiangqingshow/index',array('showid'=>$cart1['foodid']))}"><img src="{$cart1.foodurl}" alt="" class="menu_img"></a></td>
+                    <td><a href="{:U('Xiangqingshow/index',array('showid'=>$cart1['foodid']))}">{$cart1.foodname}</a></td>
+                    <td>{$cart1.foodintroduce}</td>
+                    <td>{$cart1.foodprice}</td>
+                    <td><button class="menu_button menu_button1"><a href="{:U('Shop/jiesuan',array('id1'=>$cart1['foodid']))}">结算</a>
+                    </button>
+                    <button class="menu_button menu_button2"><a href="{:U('Shop/deletecartitem',array('id'=>$cart1['foodid']))}">删除</a></button></td>
+                </tr>
+            </volist>
+                    <tr>
+                        <td colspan="6">
+                            <div class="table-fun"><!-- 
+                                <a onclick="selectall()">全选</a>
+                                <a onclick="inverse()">反选</a>
+                                <a onclick="unselectall()">全不选</a> -->
+                                <!-- <button class="menu_button menu_button2"><a href="{:U('Shop/deletemore')}"></a>批量删除</button> -->
+                                <button class="menu_button menu_button2" type="submit">批量结算</button>
+                            </div>
+                        </td>
+                    </tr>
+            </form>
+        </table>
+    </div>
+</block>
+
+

@@ -1,0 +1,170 @@
+<extend name="Base/common"/>
+<block name="head">
+
+    <!--<script type="text/javascript" src="__STATIC__/jquery-1.11.1.min.js"></script>-->
+</block>
+<block name="body">
+    <div id="main" class="container">
+        <div class="detail_catalog"></div>
+        <div class="banner">
+            <div id="items">
+                <div class="item" id="item11"></div>
+                <div class="item"  id="item22" style=" display: block;"></div>
+                <div class="item" id="item33" ></div>
+            </div>
+            <div class="sub_menu">
+                <div class="submenuItem">
+                    <ul>
+                        <li><!-- 
+                            <h3>管&nbsp;理</h3> -->
+                            <div>
+                                <a href=""></a>
+                                <a href=""></a>
+                                <a href=""></a>
+                                <a href=""></a>
+                                <a href=""></a>
+                                <a href=""></a>
+                                <a href=""></a>
+                                <a href=""></a>
+                                <a href=""></a>
+                                <a href=""></a>
+                            </div>
+                        </li>
+                        <li></li>
+                        <li></li>
+
+                    </ul>
+                </div>
+                <div class="submenuItem"></div>
+                <div class="submenuItem"></div>
+                <div class="submenuItem"></div>
+                <div class="submenuItem"></div>
+                <div class="submenuItem"></div>
+            </div>
+            <div class="menuContent">
+                <div class="menuItem"><a href="{:U('Login/index')}">登录</a></div>
+                <div class="menuItem"><a href="{:U('Register/index')}">注册</a></div>
+                <div class="menuItem"><a href="{:U('Menu/index')}">菜谱</a></div>
+                <div class="menuItem"><a href="{:U('RoomBook/index')}">包间预定</a></div>
+                <div class="menuItem"><a href="{:U('OnesMenu/index')}">我的个性菜谱</a></div>
+                <div class="menuItem"><a href="{:U('Shop/cart')}">购物车</a></div>
+                <div class="menuItem"><a href="{:U('Shop/myorder')}">我的订单</a></div>
+            </div>
+            <div id="dotLists">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="__PUBLIC__/Home/Js/jquery-3.2.0.min.js"></script>
+    <script src="__PUBLIC__/Home/Js/collapse.js"></script>
+
+    <script type="text/javascript">
+        $(function(){
+            //调用轮播
+            new Rotation($("#items"),$("#dotLists"));
+        });
+    </script>
+
+    <div class="tuijianmenu-menu">
+
+        <div class="tuijianmenu-item">
+            <img src="__PUBLIC__/Home/Img/homepage/01.jpg"  alt="好吃的牛排买二送一！"  class="arealimg">
+
+        </div>
+
+        <div class="tuijianmenu-item">
+            <img src="__PUBLIC__/Home/Img/homepage/02.jpg" alt="大大的虾肉只要59一碟！" class="arealimg">
+
+        </div>
+
+        <div class="tuijianmenu-item">
+            <img src="__PUBLIC__/Home/Img/homepage/03.jpg"  alt="天啊这不是鱼这是艺术品"  class="arealimg">
+        </div>
+
+        <div class="tuijianmenu-item">
+            <img src="__PUBLIC__/Home/Img/homepage/04.jpg" alt="番茄蛋面，让人胃口大开啊"  class="arealimg">
+
+
+        </div>
+    <!-- 图片模态框 -->
+    <div class="motai" id="mo">
+        <span class="close" id="close">×</span>
+        <img class="amotaiimg" src="motaiimg" id="moimg">
+        <div class="acaption" id="caption"></div>
+    </div>
+    </div>
+    <!--调用图片放大-->
+    <script>
+        $(document).ready(function(){
+
+            $('.tuijianmenu-item').click(function(e){
+
+                var imgsrc=$(this).children("img.arealimg").attr('src');
+                var imgalt=$(this).children("img.arealimg").attr('alt');
+
+                var currentDivId = $(" .motai").attr('id');
+                var currentCloseId=$(" .motai .close").attr("id");
+                var currentMoImgId=$(" .motai img").attr('id');
+                var currentCaptionId=$(" .motai div").attr('id');
+
+                var motai=document.getElementById(currentDivId);
+                var moimg=document.getElementById(currentMoImgId);
+                var caption=document.getElementById(currentCaptionId);
+
+                motai.style.display="block";
+
+                moimg.src=imgsrc;
+                caption.innerHTML=imgalt;
+
+                var close=document.getElementById(currentCloseId);
+                $('.motai .close').mousedown(function () {
+                    motai.style.display="none";
+                });
+            });
+        });
+
+    </script>
+
+
+    <div style="clear:both;"></div>
+    <div class="menu_h2"><h2>· 特色菜谱 ·</h2></div>
+
+    <div class="gedacaixi">
+        <div class="gedacaixi-item item1" style="color:yellow;height:250px;">
+            <span class="food_eat">脆皮炸蟹钳</span>
+        </div>
+        <div class="gedacaixi-item item2" style="color:yellow;height:250px;">
+            <span class="food_eat">麒麟大桂鱼</span>
+        </div>
+        <div class="gedacaixi-item item3" style="color:yellow;height:250px;">
+            <span  class="food_eat">游龙戏凤煲</span>
+        </div>
+        <div class="gedacaixi-item item4" style="color:yellow;height:250px;">
+            <span  class="food_eat">香芋扣肉</span>
+        </div>
+        <div class="gedacaixi-item item5" style="color:yellow;height:250px;">
+            <span  class="food_eat">酥炸羊腩</span>
+        </div>
+        <div class="gedacaixi-item item6" style="color:yellow;height:250px;">
+            <span  class="food_eat">游龙戏凤煲</span>
+        </div>
+    </div>
+
+    <div style="clear:both;"></div>
+    <div style="height:100px;width:100%; background:yellow"></div>
+
+    <!--<div><h1>hello i am the body of index</h1></div>-->
+    <!--<h1 class="header_fir">hello world</h1>-->
+
+    <!--{$word}<br/>-->
+
+    <!--{$word}-->
+
+</block>
+
+

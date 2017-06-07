@@ -1,0 +1,43 @@
+<extend name="Base/common"/>
+<block name="body">
+    <link href="__PUBLIC__/Admin/Css/detail.css" rel="stylesheet"/>
+    <div class="main-title">
+        <h3>个性菜谱定制详情页</h3>
+    </div>
+    <form action="" class="form-horizontal" enctype="multipart/form-data">
+
+        <div class="form-item">
+            <label class="item-label">用户名</label>
+            <div class="controls">
+                <input type="text" class="text input-large" readonly value="{$data1['username']}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">联系方式</label>
+            <div class="controls">
+                <input type="text" class="text input-large" readonly value="{$data1['usertelephone']}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">收藏的菜谱</label>
+            <div class="controls">
+                <input type="text" class="text input-large" readonly value="{$data2['foodname']}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">菜谱图片</label>
+            <div class="controls">
+                <img src="__ROOT__/Uploads{$data2['foodurl']}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">菜谱价格</label>
+            <div class="controls">
+                <input type="text" class="text input-large" readonly value="{$data2['foodprice']}">
+            </div>
+        </div>
+        <div class="form-item" style="padding-top:10px;">
+            <button class="btn btn-return btnStyle" onclick="javascript:history.back(-1);return false;">返 回</button>
+        </div>
+    </form>
+</block>

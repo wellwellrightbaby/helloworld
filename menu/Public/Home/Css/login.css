@@ -1,0 +1,123 @@
+#login_body{
+    background-color: #e4e8ec;
+    background-image:url(./../Img/002.jpg);
+    background-size:cover;
+}
+
+#login_form{
+
+    top:20%;
+    left:25%;
+    right:25%;
+    /*bottom:25%;*/
+    border-radius:5px;
+    background-color: rgba(253,253,253,.3);
+    width:50%;
+    margin:10px auto;
+    box-shadow:
+        0 0 2px rgba(0,0,0,0.2),
+        0 1px 1px rgba(0,0,0,.2),
+        0 3px 0 #fff,
+        0 4px 0 rgba(0,0,0,.2),
+        0 6px 0 rgba(0,0,0,.2),
+        0 6px 0 #fff,
+        0 7px 0 rgba(0,0,0,.2);
+    position:absolute;
+    z-index:0;
+}
+#login_form:before{
+    content:'';
+    position:absolute;
+    z-index:-1;
+    border:1px dashed #ccc;
+    top:5px;
+    bottom:5px;
+    left:5px;
+    right:5px;
+    -moz-box-shadow: 0 0 0 1px #fff;
+    -webkit-box-shadow:0 0 0 1px #fff;
+    box-shadow:0 0 0 1px #fff;
+}
+#login_form h1{
+    text-shadow:0 1px 0 rgba(255,255,255,.7),0 2px 0 rgba(0,0,0,.5);
+    text-transform:uppercase;
+    text-align: center;
+    color: #494949;
+    margin:10px 10px 30px 0;
+    letter-spacing:4px;
+    font:normal 26px/1 Verdana,Helvetica;
+    position:relative;
+}
+#login_form h1:after,h1:before{
+    background-color:#777;
+    content:"";
+    height:1px;
+    position:absolute;
+    top:15px;
+    width:120px;
+}
+#login_form h1:after{
+    background-image: -webkit-gradient(linear, left top, right top, from(#777), to(#fff));
+    background-image: -webkit-linear-gradient(left, #777, #fff);
+    background-image: -moz-linear-gradient(left, #777, #fff);
+    background-image: -ms-linear-gradient(left, #777, #fff);
+    background-image: -o-linear-gradient(left, #777, #fff);
+    background-image: linear-gradient(left, #777, #fff);
+    right: 0;
+}
+
+#login_form h1:before{
+    background-image: -webkit-gradient(linear, right top, left top, from(#777), to(#fff));
+    background-image: -webkit-linear-gradient(right, #777, #fff);
+    background-image: -moz-linear-gradient(right, #777, #fff);
+    background-image: -ms-linear-gradient(right, #777, #fff);
+    background-image: -o-linear-gradient(right, #777, #fff);
+
+    background-image: linear-gradient(right, #777, #fff);
+    left: 0;
+}
+
+#login_username,#login_password{
+    width:80%;
+    height:30px;
+    left:20px;
+    margin:8px 20px;
+    border-radius:5px;
+    background-color: rgba(209, 209, 209, 0.50) !important;
+}
+
+#login_inputs{
+    border:1px solid #ccc;
+    padding:10px;
+}
+
+
+#login_inputs a{
+    /*float:right;*/
+    margin:20px 50px;
+    text-decoration: none;
+    color:#666;
+    font-size:12px;
+
+    margin:25px;
+    border-radius:5px;
+}
+
+#login_submit{
+
+    background-color: #feca5d;
+    color: #935c10;
+    margin:20px 75px;
+    width:130px;
+    height:35px;
+}
+.add {
+    margin: 5px 160px;
+}
+#login_register {
+    background-color: rgba(254, 202, 93, 0.51);
+    color: #935c10;
+    margin:20px 75px;
+    width:130px;
+    height:35px;
+}

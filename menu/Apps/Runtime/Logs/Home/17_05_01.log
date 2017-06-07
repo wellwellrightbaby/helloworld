@@ -1,0 +1,506 @@
+[ 2017-05-01T12:03:21+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014455s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.7700s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000498s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.173666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.174424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.037054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.041644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.042229s ]
+
+[ 2017-05-01T12:06:02+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000155s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010489s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.2538s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000525s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005945s ]
+
+[ 2017-05-01T12:11:53+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003475s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.0849s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004710s ]
+
+[ 2017-05-01T12:38:02+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009927s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.2175s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000461s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016073s ]
+
+[ 2017-05-01T12:39:17+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003920s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.3972s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000468s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005999s ]
+
+[ 2017-05-01T12:40:17+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003666s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.0858s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000510s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005053s ]
+
+[ 2017-05-01T12:40:25+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010852s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.3470s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000488s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006927s ]
+
+[ 2017-05-01T12:40:40+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012489s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.1339s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000576s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004985s ]
+
+[ 2017-05-01T12:40:42+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003169s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.1243s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000747s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004581s ]
+
+[ 2017-05-01T12:40:44+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003964s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.1155s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000702s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003335s ]
+
+[ 2017-05-01T12:40:49+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003914s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.0862s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000704s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003149s ]
+
+[ 2017-05-01T12:47:21+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004742s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.1429s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004849s ]
+
+[ 2017-05-01T12:48:18+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004801s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.1505s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.020125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020886s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006591s ]
+
+[ 2017-05-01T12:52:14+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011381s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.2840s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000583s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008344s ]
+
+[ 2017-05-01T13:46:30+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000335s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003718s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.1674s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000736s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006993s ]
+
+[ 2017-05-01T13:47:28+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007277s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.1691s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000507s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006094s ]
+
+[ 2017-05-01T14:37:43+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017958s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.1217s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000506s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016267s ]
+
+[ 2017-05-01T14:39:06+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000167s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003726s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.1301s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005216s ]
+
+[ 2017-05-01T14:39:44+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005469s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.1668s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000499s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005713s ]
+
+[ 2017-05-01T14:39:44+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005847s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.1114s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000504s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004795s ]
+
+[ 2017-05-01T14:39:44+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005310s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.1882s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000501s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006015s ]
+
+[ 2017-05-01T14:39:54+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004090s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:0.1269s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000846s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008453s ]
+
+[ 2017-05-01T21:43:39+08:00 ] ::1 /menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007989s ]
+SQL: SHOW COLUMNS FROM `think_data` [ RunTime:2.0329s ]
+SQL: SELECT * FROM `think_data`  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.934659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.934970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.284194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.284368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.148980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.149168s ]
+

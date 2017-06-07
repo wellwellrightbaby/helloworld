@@ -1,0 +1,34 @@
+<extend name="Base/common"/>
+
+<block name="head">
+
+</block>
+
+<block name="body">
+<h1>我的个性菜谱</h1>
+    <div class="onesmenu">
+
+        <table style="text-align: center;" class="page">
+            <tr>
+
+                <th><br>收藏美食</th>
+                <th><br>名称</th>
+                <th><br>商品介绍</th>
+                <th><br>价格</th>
+                <th><br>操作</th>
+            </tr>
+
+
+            <volist name="fss" id="io">
+                <tr  class="menu_list">
+                    <td><a href="{:U('Xiangqingshow/index',array('showid'=>$io['foodid']))}"><img src="{$io.foodurl}" alt="" class="menu_img"></a></td>
+                    <td><a href="{:U('Xiangqingshow/index',array('showid'=>$io['foodid']))}">{$io.foodname}</a></td>
+                    <td>{$io.foodintroduce}</td><td>{$io.foodprice}</td>
+                    <td><button class="menu_button menu_button1" ><a href="{:U('Shop/joincart',array('id'=>$io['foodid']))}">加入购物车</a></button><button class="menu_button menu_button2"><a href="{:U('Shop/deletesaveitem',array('saveid'=>$io['foodid']))}">删除</a></button></td>
+                </tr>
+            </volist>
+
+        </table>
+    </div>
+
+</block>

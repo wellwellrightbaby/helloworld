@@ -1,0 +1,111 @@
+<extend name="Base/common"/>
+<block name="body">
+<!--中文-->
+<script src="__PUBLIC__/Admin/Bootstrap/js/bootstrap-table-zh-CN.js" type="text/javascript" ></script>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div id="toolbar">
+                <div class="btn btn-primary">
+                    <span class="" aria-hidden="true"></span>购物车</div>
+            </div>
+            <!--表格start-->
+            <table id="table" data-toggle="table"
+                   data-striped ="true"
+                   data-toolbar="#toolbar"
+                   data-pagination="true"
+                   data-page-size="8">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th data-field="1">用户名</th>
+                    <th data-field="2">联系方式</th>
+                    <th data-field="3">菜谱名称</th>
+                    <th data-field="4">总计</th>
+                    <th data-field="5">添加时间</th>
+                    <th data-field="6">操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <volist name="shop" id="arr">
+                    <tr>
+                        <td>{$arr.shopid}</td>
+                        <td>{$arr.username}</td>
+                        <td>{$arr.usertelephone}</td>
+                        <td>{$arr.foodname}</td>
+                        <td>{$arr.foodprice}</td>
+                        <td>{$arr.foodupdatetime}</td>
+                        <td>
+                            <a class="btn btn-sm btn-success" href="{:U('detail',array('ShopId'=>$arr['shopid']))}">
+                                <span class="icon-edit" aria-hidden="true"></span>查看</a>
+                            <a  class="btn btn-sm btn-danger"  href="javascript:void(0)" onclick="delInfo(this);">
+                                <span class="icon-remove" aria-hidden="true"></span>删除</a>
+                        </td>
+                    </tr>
+                </volist>
+                </tbody>
+            </table>
+            <!--表格end-->
+        </div>
+    </div>
+
+    <!-- 删除触发框start-->
+    <div class="modal fade" id="delModal"  role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">操作提示</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <input type="hidden" name="id" id="del_id"  />
+                        <span class="icon-exclamation-sign  icon-large" aria-hidden="true"></span> 你确定要删除吗？
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn  btn-primary " id="btn_del" >确定</button>
+                    <button type="button" class="btn  btn-default "  data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+    // 触发删除模态框的同时调用此方法
+    function delInfo(obj) {
+    var tds = $(obj).parent().parent().find('td');
+    $('#del_id').val(tds.eq(0).text());
+    $('#delModal').modal('show');
+    }
+
+    //删除ajax交互
+    $(function () {
+        $('#btn_del').click(function (event) {
+            //获取模态框数据
+            var id = $('#del_id').val();
+            $.ajax({
+                type: "post",
+                url: "__URL__/del",
+                data: {ShopId: id},
+                dataType: 'text',
+                contentType: "application/x-www-form-urlencoded; charset=utf-8",
+                success: function (data) {
+                    $('#delModal').modal('hide');
+                    var obj = new Function("return" + data)();
+                    alert(obj.info);
+                    location.reload();
+                }
+
+            });
+
+        });
+    });
+    //删除ajax交互end
+
+</script>
+</block>

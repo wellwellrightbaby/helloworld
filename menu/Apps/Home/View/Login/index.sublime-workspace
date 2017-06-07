@@ -1,0 +1,292 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"M",
+				"ManagerId"
+			],
+			[
+				"mana",
+				"managermessage"
+			],
+			[
+				"Manager",
+				"ManagerPass"
+			],
+			[
+				"admin",
+				"adminname"
+			],
+			[
+				"manager",
+				"ManagerName"
+			],
+			[
+				"add",
+				"addadminpwd"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"top",
+				"topPadding"
+			],
+			[
+				"tuijian",
+				"tuijianmenu-menu"
+			],
+			[
+				"list-s",
+				"list-style"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/wamp/www/menu/Apps/Common/Conf/config.php",
+		"/D/wamp/www/menu/Apps/Admin/View/Base/common.html",
+		"/D/wamp/www/menu/Apps/Admin/View/Public/body.html",
+		"/D/wamp/www/menu/Apps/Admin/View/Public/head.html",
+		"/D/wamp/www/menu1/Apps/Admin/Controller/AdminController.class.php",
+		"/D/wamp/www/menu1/Apps/Admin/View/Admin/admininfo.html",
+		"/D/wamp/www/menu1/Apps/Admin/View/Admin/adminmodify.html",
+		"/D/wamp/www/menu1/Apps/Admin/Model/AdminModel.class.php",
+		"/D/wamp/www/menu1/Apps/Admin/View/Index/index.html",
+		"/D/wamp/www/menu1/Apps/Home/View/Public/head.html",
+		"/D/wamp/www/menu1/Apps/Home/View/Public/header.html",
+		"/D/wamp/www/menu1/Apps/Admin/View/Index/show.html",
+		"/D/wamp/www/menu1/Apps/Admin/Controller/IndexController.class.php",
+		"/D/wamp/www/menu1/Apps/Common/Conf/config.php",
+		"/D/wamp/www/menu1/Apps/Admin/View/Admin/admintianjia.html",
+		"/D/wamp/www/menu1/Apps/Admin/View/Admin/adminaddd.html",
+		"/D/wamp/www/menu1/Apps/Admin/View/Admin/adminadd.html",
+		"/D/wamp/www/menu1/Apps/Admin/View/Admin/adminlist.html",
+		"/D/wamp/www/menu1/Apps/Admin/View/Index/main.html",
+		"/D/wamp/www/menu1/Apps/Admin/Controller/ActionController.class.php",
+		"/D/wamp/www/menu1/Apps/Admin/Controller/AdminAction.class.php",
+		"/D/wamp/www/menu1/index.php",
+		"/F/网站组件/20170526商品框/index.html",
+		"/F/hexo/source/_posts/geshi.md",
+		"/F/hexo/source/_posts/css3.md",
+		"/F/hexo/source/_posts/jqueryhtml.md",
+		"/F/hexo/source/_posts/css.md",
+		"/F/网站组件/20170512多张图片模态框/index.html",
+		"/F/网站组件/20170513jquery商品详情页放大功能/css/default.css",
+		"/F/网站组件/20170513jquery商品详情页放大功能/css/smoothproducts.css",
+		"/F/网站组件/20170513jquery商品详情页放大功能/js/smoothproducts.js",
+		"/F/网站组件/20170512多张图片模态框/index2.html",
+		"/F/网站组件/20170512多张图片模态框/css/style.css",
+		"/F/hexo/source/_posts/jquery.md",
+		"/F/网站组件/20170512多张图片模态框/说明.txt",
+		"/F/网站组件/20170512多张图片模态框/index3.html",
+		"/F/网站组件/20170512点击图片放大/index.html",
+		"/F/网站组件/index.html",
+		"/F/网站组件/20170510jike导航条demo1/index.html",
+		"/F/网站组件/20170512导航轮播乾坤大挪移/css/style.css",
+		"/F/网站组件/20170512导航轮播乾坤大挪移/index.html",
+		"/F/hexo/source/_posts/bootstrap.md",
+		"/F/网站组件/jiaoben2770/index2.html",
+		"/F/网站组件/20170510商品详情页demo1/index.html",
+		"/F/网站组件/20170510商品详情页demo1/index2.html",
+		"/F/网站组件/jquery/index.html",
+		"/F/网站组件/jquery/js/jquery.js",
+		"/F/网站组件/20170510jike导航条demo1/js/jquery-1.5.1.min.js",
+		"/F/网站组件/20170510商品详情页demo1/css/style.css",
+		"/F/网站组件/导航1/index.html",
+		"/F/网站组件/jiaoben2770/index.html",
+		"/F/网站组件/jiaoben4636/index.html",
+		"/F/网站组件/寄己做的丑哭的导航/css/style.css",
+		"/F/网站组件/寄己做的丑哭的导航/index.html",
+		"/F/网站组件/jike1导航条案例/index.html",
+		"/F/网站组件/jike1导航条案例/css/header_style.css",
+		"/F/网站组件/导航1/css/nav_style.css",
+		"/F/网站组件/导航1/images/os5100.jpg",
+		"/F/hexo/source/_posts/thinkphp.md",
+		"/F/hexo/source/_posts/ThinkPhp3.1快速入门.md",
+		"/F/hexo/source/_posts/myPhpWork.md",
+		"/F/zhiming/Archive/README.md",
+		"/F/hexo/source/_posts/vuejs.md",
+		"/I/bootstrapzujian.md",
+		"/F/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/index.html",
+		"/F/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.js",
+		"/I/170417bootstrap/hi.md",
+		"/F/hexo/source/_posts/test2.md",
+		"/F/hexo/source/_posts/yueqian.md",
+		"/F/hexo/source/_posts/hello-world.md",
+		"/F/hexo/source/_posts/面向对象程序设计-1.md",
+		"/F/hexo/source/_posts/test1.md",
+		"/F/hexo/source/_posts/hello.md",
+		"/F/vue/node_modules/vue/README.md",
+		"/F/hexo/_config.yml"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"图片",
+			" class=\"discount_list_li\"",
+			"box",
+			"next",
+			"prev",
+			"scroll",
+			"speed:500,\n			delay:8000,\n			keys:true,",
+			"www"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"discount_box",
+			"discount_next",
+			"discount_prev",
+			"discount_scroll"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

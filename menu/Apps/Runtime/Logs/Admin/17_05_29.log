@@ -1,0 +1,1776 @@
+[ 2017-05-29T22:17:06+08:00 ] ::1 /menu/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+
+[ 2017-05-29T22:17:09+08:00 ] ::1 /menu/index.php/Admin/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2017-05-29T22:17:21+08:00 ] ::1 /menu/index.php/Admin/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `think_managermessage` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `think_managermessage` WHERE `ManagerName` = 'admin' AND `ManagerPass` = '123456' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-05-29T22:23:55+08:00 ] ::1 /menu/index.php/Admin/Login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.095342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.095532s ]
+SQL: SHOW COLUMNS FROM `think_managermessage` [ RunTime:0.4488s ]
+SQL: SELECT * FROM `think_managermessage` WHERE `ManagerName` = '11' AND `ManagerPass` = '11' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-29T22:23:58+08:00 ] ::1 /menu/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.674413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.674562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.072511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.072642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.137852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.137997s ]
+
+[ 2017-05-29T22:24:15+08:00 ] ::1 /menu/index.php/Admin/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `think_usermessage` [ RunTime:0.1474s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\UserController.class.php 第 9 行.
+SQL: SELECT * FROM `think_usermessage`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] Undefined variable: UserId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 214 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.518210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.518353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002183s ]
+
+[ 2017-05-29T22:24:19+08:00 ] ::1 /menu/index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2017-05-29T22:24:25+08:00 ] ::1 /menu/index.php/Admin/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `think_usermessage` [ RunTime:0.0516s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\UserController.class.php 第 9 行.
+SQL: SELECT * FROM `think_usermessage`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined variable: UserId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 214 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2017-05-29T22:24:29+08:00 ] ::1 /menu/index.php/Admin/Menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0162s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 9 行.
+SQL: SELECT * FROM `think_foodmessage`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `think_fooditemmessage` [ RunTime:0.0188s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 11 行.
+SQL: SELECT * FROM `think_fooditemmessage`  [ RunTime:0.0667s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0196s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemName as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0357s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Undefined variable: FoodId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 223 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 469 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002079s ]
+
+[ 2017-05-29T22:25:01+08:00 ] ::1 /menu/index.php/Admin/Room.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006880s ]
+SQL: SHOW COLUMNS FROM `think_bjlxmessage` [ RunTime:0.1879s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\RoomController.class.php 第 9 行.
+SQL: SELECT * FROM `think_bjlxmessage`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Undefined variable: BjlxId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 221 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 414 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.288009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.288151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.058013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.058175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.126259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.126474s ]
+
+[ 2017-05-29T22:25:07+08:00 ] ::1 /menu/index.php/Admin/Menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0284s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 9 行.
+SQL: SELECT * FROM `think_foodmessage`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `think_fooditemmessage` [ RunTime:0.0258s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 11 行.
+SQL: SELECT * FROM `think_fooditemmessage`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0234s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemName as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined variable: FoodId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 223 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 469 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002080s ]
+
+[ 2017-05-29T22:25:14+08:00 ] ::1 /menu/index.php/Admin/Room.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `think_bjlxmessage` [ RunTime:0.0782s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\RoomController.class.php 第 9 行.
+SQL: SELECT * FROM `think_bjlxmessage`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: BjlxId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 221 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 414 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001830s ]
+
+[ 2017-05-29T22:27:03+08:00 ] ::1 /menu/index.php/Admin/Diy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.561983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.648926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.649159s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.6130s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0774s ]
+SQL: SELECT `CaipuId`,`UserName`,`UserTelephone`,`FoodId`,`AddTime` FROM think_foodsave as a INNER JOIN think_usermessage as b ON a.UserId=b.UserId  ORDER BY CaipuId  [ RunTime:0.3668s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0224s ]
+SQL: SELECT `CaipuId`,`FoodName`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodsave as a INNER JOIN think_foodmessage as b ON a.FoodId=b.FoodId  ORDER BY CaipuId  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\ff89641dca0fec137d187cbe5e2f2ec2.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.286189s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.286432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.158281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.158527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.170555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.170826s ]
+
+[ 2017-05-29T22:27:04+08:00 ] ::1 /menu/index.php/Admin/Order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.403209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.648840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.649079s ]
+SQL: SHOW COLUMNS FROM `think_haspaymessage` [ RunTime:0.0922s ]
+SQL: SHOW COLUMNS FROM `think_haspaymessage` [ RunTime:0.0930s ]
+SQL: SELECT a.BookId as BookId,`SwId`,`UserName`,`UserTelephone`,`BjlxName`,`BjlxSize`,`BjlxCount`,`BjlxURL`,`FoodName`,`FoodURL`,`BookPrice`,`BookTime` FROM think_haspaymessage as a,think_usermessage as b,think_bjlxmessage as c,think_swduiying as d,think_foodmessage as e WHERE ( a.UserId=b.UserId and a.BjlxId=c.BjlxId and a.BookId=d.BookId and d.FoodId=e.FoodId ) ORDER BY BookId  [ RunTime:0.0236s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\f4e214009ad75ac936bcad6ad9452214.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.212521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.212996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002269s ]
+
+[ 2017-05-29T22:27:08+08:00 ] ::1 /menu/index.php/Admin/Shopping.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+SQL: SHOW COLUMNS FROM `think_shoppingcart` [ RunTime:0.0742s ]
+SQL: SHOW COLUMNS FROM `think_shoppingcart` [ RunTime:0.0297s ]
+SQL: SELECT `ShopId`,`UserName`,`UserTelephone`,`FoodName`,`FoodPrice`,`FoodURL`,`FoodUpdateTime`,`AddTime` FROM think_shoppingcart as a,think_usermessage as b,think_foodmessage as c WHERE ( a.UserId=b.UserId and a.FoodId=c.FoodId ) ORDER BY ShopId  [ RunTime:0.0470s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\c8acfb7670c8536c8ff154bb6ce4a89a.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.395055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.395319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001933s ]
+
+[ 2017-05-29T22:27:13+08:00 ] ::1 /menu/index.php/Admin/Menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0268s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 9 行.
+SQL: SELECT * FROM `think_foodmessage`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `think_fooditemmessage` [ RunTime:0.0267s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 11 行.
+SQL: SELECT * FROM `think_fooditemmessage`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0282s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemName as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Undefined variable: FoodId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 223 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 469 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.622996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.623259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008030s ]
+
+[ 2017-05-29T22:27:15+08:00 ] ::1 /menu/index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+
+[ 2017-05-29T22:27:44+08:00 ] ::1 /menu/index.php/Admin/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `think_usermessage` [ RunTime:0.1493s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\UserController.class.php 第 9 行.
+SQL: SELECT * FROM `think_usermessage`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: UserId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 214 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002536s ]
+
+[ 2017-05-29T22:27:58+08:00 ] ::1 /menu/index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2017-05-29T22:27:59+08:00 ] ::1 /menu/index.php/Admin/Menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0169s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 9 行.
+SQL: SELECT * FROM `think_foodmessage`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `think_fooditemmessage` [ RunTime:0.1773s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 11 行.
+SQL: SELECT * FROM `think_fooditemmessage`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0261s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemName as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] Undefined variable: FoodId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 223 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 469 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003157s ]
+
+[ 2017-05-29T22:28:01+08:00 ] ::1 /menu/index.php/Admin/Room.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `think_bjlxmessage` [ RunTime:0.0227s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\RoomController.class.php 第 9 行.
+SQL: SELECT * FROM `think_bjlxmessage`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: BjlxId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 221 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 414 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.542666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.542872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002091s ]
+
+[ 2017-05-29T22:28:02+08:00 ] ::1 /menu/index.php/Admin/Diy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0228s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0291s ]
+SQL: SELECT `CaipuId`,`UserName`,`UserTelephone`,`FoodId`,`AddTime` FROM think_foodsave as a INNER JOIN think_usermessage as b ON a.UserId=b.UserId  ORDER BY CaipuId  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0215s ]
+SQL: SELECT `CaipuId`,`FoodName`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodsave as a INNER JOIN think_foodmessage as b ON a.FoodId=b.FoodId  ORDER BY CaipuId  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\ff89641dca0fec137d187cbe5e2f2ec2.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002571s ]
+
+[ 2017-05-29T22:28:12+08:00 ] ::1 /menu/index.php/Admin/Order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `think_haspaymessage` [ RunTime:0.0188s ]
+SQL: SHOW COLUMNS FROM `think_haspaymessage` [ RunTime:0.0230s ]
+SQL: SELECT a.BookId as BookId,`SwId`,`UserName`,`UserTelephone`,`BjlxName`,`BjlxSize`,`BjlxCount`,`BjlxURL`,`FoodName`,`FoodURL`,`BookPrice`,`BookTime` FROM think_haspaymessage as a,think_usermessage as b,think_bjlxmessage as c,think_swduiying as d,think_foodmessage as e WHERE ( a.UserId=b.UserId and a.BjlxId=c.BjlxId and a.BookId=d.BookId and d.FoodId=e.FoodId ) ORDER BY BookId  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\f4e214009ad75ac936bcad6ad9452214.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2017-05-29T22:28:14+08:00 ] ::1 /menu/index.php/Admin/Shopping.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `think_shoppingcart` [ RunTime:0.0297s ]
+SQL: SHOW COLUMNS FROM `think_shoppingcart` [ RunTime:0.2681s ]
+SQL: SELECT `ShopId`,`UserName`,`UserTelephone`,`FoodName`,`FoodPrice`,`FoodURL`,`FoodUpdateTime`,`AddTime` FROM think_shoppingcart as a,think_usermessage as b,think_foodmessage as c WHERE ( a.UserId=b.UserId and a.FoodId=c.FoodId ) ORDER BY ShopId  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\c8acfb7670c8536c8ff154bb6ce4a89a.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001992s ]
+
+[ 2017-05-29T22:28:26+08:00 ] ::1 /menu/index.php/Admin/Shopping.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `think_shoppingcart` [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `think_shoppingcart` [ RunTime:0.0193s ]
+SQL: SELECT `ShopId`,`UserName`,`UserTelephone`,`FoodName`,`FoodPrice`,`FoodURL`,`FoodUpdateTime`,`AddTime` FROM think_shoppingcart as a,think_usermessage as b,think_foodmessage as c WHERE ( a.UserId=b.UserId and a.FoodId=c.FoodId ) ORDER BY ShopId  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\c8acfb7670c8536c8ff154bb6ce4a89a.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002525s ]
+
+[ 2017-05-29T22:28:27+08:00 ] ::1 /menu/index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001809s ]
+
+[ 2017-05-29T22:28:28+08:00 ] ::1 /menu/index.php/Admin/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `think_usermessage` [ RunTime:0.0172s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\UserController.class.php 第 9 行.
+SQL: SELECT * FROM `think_usermessage`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined variable: UserId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 214 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001431s ]
+
+[ 2017-05-29T22:28:29+08:00 ] ::1 /menu/index.php/Admin/Menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0183s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 9 行.
+SQL: SELECT * FROM `think_foodmessage`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `think_fooditemmessage` [ RunTime:0.0207s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 11 行.
+SQL: SELECT * FROM `think_fooditemmessage`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0218s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemName as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0235s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Undefined variable: FoodId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 223 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 469 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002015s ]
+
+[ 2017-05-29T22:28:30+08:00 ] ::1 /menu/index.php/Admin/Room.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002093s ]
+SQL: SHOW COLUMNS FROM `think_bjlxmessage` [ RunTime:0.0232s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\RoomController.class.php 第 9 行.
+SQL: SELECT * FROM `think_bjlxmessage`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined variable: BjlxId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 221 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 414 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2017-05-29T22:32:57+08:00 ] ::1 /menu/index.php/Admin/Room.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.040489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040652s ]
+SQL: SHOW COLUMNS FROM `think_bjlxmessage` [ RunTime:0.1972s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\RoomController.class.php 第 9 行.
+SQL: SELECT * FROM `think_bjlxmessage`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: BjlxId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 221 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 414 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015704s ]
+
+[ 2017-05-29T22:33:43+08:00 ] ::1 /menu/index.php/Admin/Menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0189s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 9 行.
+SQL: SELECT * FROM `think_foodmessage`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `think_fooditemmessage` [ RunTime:0.0631s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 11 行.
+SQL: SELECT * FROM `think_fooditemmessage`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0644s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemName as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: FoodId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 223 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 469 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2017-05-29T22:34:18+08:00 ] ::1 /menu/index.php/Admin/Menu/detail/FoodId/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0715s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0161s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemName as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\6c14032d8c5b45d68dca8b168a932943.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001533s ]
+
+[ 2017-05-29T22:37:10+08:00 ] ::1 /menu/index.php/Admin/Room.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `think_bjlxmessage` [ RunTime:0.0594s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\RoomController.class.php 第 9 行.
+SQL: SELECT * FROM `think_bjlxmessage`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined variable: BjlxId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 221 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 414 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2017-05-29T22:45:14+08:00 ] ::1 /menu/index.php/Admin/Room/detail/BjlxId/41.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+SQL: SHOW COLUMNS FROM `think_bjlxmessage` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `think_bjlxmessage` WHERE `BjlxId` = 41 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3e853175bf6421df8db666eefa1ea622.php 第 203 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002591s ]
+
+[ 2017-05-29T22:46:51+08:00 ] ::1 /menu/index.php/Admin/Room/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000857s ]
+
+[ 2017-05-29T22:47:58+08:00 ] ::1 /menu/index.php/Admin/Room.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `think_bjlxmessage` [ RunTime:0.1684s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\RoomController.class.php 第 9 行.
+SQL: SELECT * FROM `think_bjlxmessage`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined variable: BjlxId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 221 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 414 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.201871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.202057s ]
+
+[ 2017-05-29T22:48:17+08:00 ] ::1 /menu/index.php/Admin/Room/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\menu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `think_bjlxmessage` [ RunTime:0.0361s ]
+SQL: INSERT INTO `think_bjlxmessage` (`BjlxName`,`BjlxSize`,`BjlxCount`,`BjlxURL`) VALUES ('1','1','1','/Admin/Img/2017-05-29/592c34b08e23c.jpeg') [ RunTime:0.1116s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2017-05-29T22:48:18+08:00 ] ::1 /menu/index.php/Admin/Room.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `think_bjlxmessage` [ RunTime:0.0292s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\RoomController.class.php 第 9 行.
+SQL: SELECT * FROM `think_bjlxmessage`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Undefined variable: BjlxId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 221 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 414 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2017-05-29T22:48:24+08:00 ] ::1 /menu/index.php/Admin/Room/detail/BjlxId/49.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `think_bjlxmessage` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `think_bjlxmessage` WHERE `BjlxId` = 49 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3e853175bf6421df8db666eefa1ea622.php 第 203 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001801s ]
+
+[ 2017-05-29T22:49:41+08:00 ] ::1 /menu/index.php/Admin/Menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0749s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 9 行.
+SQL: SELECT * FROM `think_foodmessage`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_fooditemmessage` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 11 行.
+SQL: SELECT * FROM `think_fooditemmessage`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0436s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemName as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] Undefined variable: FoodId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 223 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 469 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002067s ]
+
+[ 2017-05-29T22:55:44+08:00 ] ::1 /menu/index.php/Admin/Menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007253s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.2192s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 9 行.
+SQL: SELECT * FROM `think_foodmessage`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `think_fooditemmessage` [ RunTime:0.0183s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 11 行.
+SQL: SELECT * FROM `think_fooditemmessage`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.1592s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemName as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] Undefined variable: FoodId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 223 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 469 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.049225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.049369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015635s ]
+
+[ 2017-05-29T22:56:07+08:00 ] ::1 /menu/index.php/Admin/Menu/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0878s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0208s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemId as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0027s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\menu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0857s ]
+ERR: 1064:Erreur de syntaxe près de 'as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/' à la ligne 1
+ [ SQL语句 ] : INSERT INTO think_foodmessage as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/2017-05-29/592c368702589.jpeg','1','1')
+ERR: 1064:Erreur de syntaxe près de 'as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/' à la ligne 1
+ [ SQL语句 ] : INSERT INTO think_foodmessage as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/2017-05-29/592c368702589.jpeg','1','1')
+
+[ 2017-05-29T22:59:21+08:00 ] ::1 /menu/index.php/Admin/Menu/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0387s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.1026s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemId as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0027s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\menu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0248s ]
+ERR: 1064:Erreur de syntaxe près de 'as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/' à la ligne 1
+ [ SQL语句 ] : INSERT INTO think_foodmessage as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/2017-05-29/592c3749cf115.jpeg','1','1')
+ERR: 1064:Erreur de syntaxe près de 'as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/' à la ligne 1
+ [ SQL语句 ] : INSERT INTO think_foodmessage as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/2017-05-29/592c3749cf115.jpeg','1','1')
+
+[ 2017-05-29T22:59:24+08:00 ] ::1 /menu/index.php/Admin/Menu/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0185s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0209s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemId as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0024s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\menu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0193s ]
+ERR: 1064:Erreur de syntaxe près de 'as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/' à la ligne 1
+ [ SQL语句 ] : INSERT INTO think_foodmessage as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/2017-05-29/592c374c05865.jpeg','1','1')
+ERR: 1064:Erreur de syntaxe près de 'as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/' à la ligne 1
+ [ SQL语句 ] : INSERT INTO think_foodmessage as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/2017-05-29/592c374c05865.jpeg','1','1')
+
+[ 2017-05-29T23:00:49+08:00 ] ::1 /menu/index.php/Admin/Menu/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0187s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0256s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemId as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0684s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\menu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0325s ]
+ERR: 1064:Erreur de syntaxe près de 'as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/' à la ligne 1
+ [ SQL语句 ] : INSERT INTO think_foodmessage as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/2017-05-29/592c37a1601fa.jpeg','1','1')
+ERR: 1064:Erreur de syntaxe près de 'as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/' à la ligne 1
+ [ SQL语句 ] : INSERT INTO think_foodmessage as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/2017-05-29/592c37a1601fa.jpeg','1','1')
+
+[ 2017-05-29T23:00:51+08:00 ] ::1 /menu/index.php/Admin/Menu/create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0224s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemId as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0020s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\menu\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0200s ]
+ERR: 1064:Erreur de syntaxe près de 'as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/' à la ligne 1
+ [ SQL语句 ] : INSERT INTO think_foodmessage as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/2017-05-29/592c37a342fe1.jpeg','1','1')
+ERR: 1064:Erreur de syntaxe près de 'as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/' à la ligne 1
+ [ SQL语句 ] : INSERT INTO think_foodmessage as a (`FoodName`,`FoodURL`,`FoodIntroduce`,`FoodPrice`) VALUES ('1','/Admin/Img/2017-05-29/592c37a342fe1.jpeg','1','1')
+
+[ 2017-05-29T23:04:22+08:00 ] ::1 /menu/index.php/Admin/Menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006990s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.1392s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 9 行.
+SQL: SELECT * FROM `think_foodmessage`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `think_fooditemmessage` [ RunTime:0.0206s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 11 行.
+SQL: SELECT * FROM `think_fooditemmessage`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0196s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemName as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] Undefined variable: FoodId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 223 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 469 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.170723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.170901s ]
+
+[ 2017-05-29T23:04:28+08:00 ] ::1 /menu/index.php/Admin/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+SQL: SHOW COLUMNS FROM `think_usermessage` [ RunTime:0.0196s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\UserController.class.php 第 9 行.
+SQL: SELECT * FROM `think_usermessage`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined variable: UserId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 214 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002052s ]
+
+[ 2017-05-29T23:04:30+08:00 ] ::1 /menu/index.php/Admin/Menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0204s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 9 行.
+SQL: SELECT * FROM `think_foodmessage`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `think_fooditemmessage` [ RunTime:0.0248s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 11 行.
+SQL: SELECT * FROM `think_fooditemmessage`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0230s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemName as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001234s ]
+NOTIC: [8] Undefined variable: FoodId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 223 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 469 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001920s ]
+
+[ 2017-05-29T23:04:31+08:00 ] ::1 /menu/index.php/Admin/Diy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0500s ]
+SQL: SELECT `CaipuId`,`UserName`,`UserTelephone`,`FoodId`,`AddTime` FROM think_foodsave as a INNER JOIN think_usermessage as b ON a.UserId=b.UserId  ORDER BY CaipuId  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0224s ]
+SQL: SELECT `CaipuId`,`FoodName`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodsave as a INNER JOIN think_foodmessage as b ON a.FoodId=b.FoodId  ORDER BY CaipuId  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\ff89641dca0fec137d187cbe5e2f2ec2.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002525s ]
+
+[ 2017-05-29T23:04:36+08:00 ] ::1 /menu/index.php/Admin/Order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `think_haspaymessage` [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `think_haspaymessage` [ RunTime:0.0321s ]
+SQL: SELECT a.BookId as BookId,`SwId`,`UserName`,`UserTelephone`,`BjlxName`,`BjlxSize`,`BjlxCount`,`BjlxURL`,`FoodName`,`FoodURL`,`BookPrice`,`BookTime` FROM think_haspaymessage as a,think_usermessage as b,think_bjlxmessage as c,think_swduiying as d,think_foodmessage as e WHERE ( a.UserId=b.UserId and a.BjlxId=c.BjlxId and a.BookId=d.BookId and d.FoodId=e.FoodId ) ORDER BY BookId  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\f4e214009ad75ac936bcad6ad9452214.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003177s ]
+
+[ 2017-05-29T23:04:37+08:00 ] ::1 /menu/index.php/Admin/Shopping.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `think_shoppingcart` [ RunTime:0.0193s ]
+SQL: SHOW COLUMNS FROM `think_shoppingcart` [ RunTime:0.0189s ]
+SQL: SELECT `ShopId`,`UserName`,`UserTelephone`,`FoodName`,`FoodPrice`,`FoodURL`,`FoodUpdateTime`,`AddTime` FROM think_shoppingcart as a,think_usermessage as b,think_foodmessage as c WHERE ( a.UserId=b.UserId and a.FoodId=c.FoodId ) ORDER BY ShopId  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\c8acfb7670c8536c8ff154bb6ce4a89a.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001887s ]
+
+[ 2017-05-29T23:04:39+08:00 ] ::1 /menu/index.php/Admin/Room.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `think_bjlxmessage` [ RunTime:0.0242s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\RoomController.class.php 第 9 行.
+SQL: SELECT * FROM `think_bjlxmessage`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: BjlxId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 221 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 414 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2017-05-29T23:04:43+08:00 ] ::1 /menu/index.php/Admin/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `think_usermessage` [ RunTime:0.0485s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\UserController.class.php 第 9 行.
+SQL: SELECT * FROM `think_usermessage`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined variable: UserId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 214 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2017-05-29T23:04:45+08:00 ] ::1 /menu/index.php/Admin/Menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0421s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 9 行.
+SQL: SELECT * FROM `think_foodmessage`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_fooditemmessage` [ RunTime:0.0207s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 11 行.
+SQL: SELECT * FROM `think_fooditemmessage`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0210s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemName as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Undefined variable: FoodId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 223 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 469 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2017-05-29T23:04:50+08:00 ] ::1 /menu/index.php/Admin/Shopping.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `think_shoppingcart` [ RunTime:0.0182s ]
+SQL: SHOW COLUMNS FROM `think_shoppingcart` [ RunTime:0.0183s ]
+SQL: SELECT `ShopId`,`UserName`,`UserTelephone`,`FoodName`,`FoodPrice`,`FoodURL`,`FoodUpdateTime`,`AddTime` FROM think_shoppingcart as a,think_usermessage as b,think_foodmessage as c WHERE ( a.UserId=b.UserId and a.FoodId=c.FoodId ) ORDER BY ShopId  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\c8acfb7670c8536c8ff154bb6ce4a89a.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001558s ]
+
+[ 2017-05-29T23:04:54+08:00 ] ::1 /menu/index.php/Admin/Order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `think_haspaymessage` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `think_haspaymessage` [ RunTime:0.0215s ]
+SQL: SELECT a.BookId as BookId,`SwId`,`UserName`,`UserTelephone`,`BjlxName`,`BjlxSize`,`BjlxCount`,`BjlxURL`,`FoodName`,`FoodURL`,`BookPrice`,`BookTime` FROM think_haspaymessage as a,think_usermessage as b,think_bjlxmessage as c,think_swduiying as d,think_foodmessage as e WHERE ( a.UserId=b.UserId and a.BjlxId=c.BjlxId and a.BookId=d.BookId and d.FoodId=e.FoodId ) ORDER BY BookId  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\f4e214009ad75ac936bcad6ad9452214.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001603s ]
+
+[ 2017-05-29T23:04:55+08:00 ] ::1 /menu/index.php/Admin/Diy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0323s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0326s ]
+SQL: SELECT `CaipuId`,`UserName`,`UserTelephone`,`FoodId`,`AddTime` FROM think_foodsave as a INNER JOIN think_usermessage as b ON a.UserId=b.UserId  ORDER BY CaipuId  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0223s ]
+SQL: SELECT `CaipuId`,`FoodName`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodsave as a INNER JOIN think_foodmessage as b ON a.FoodId=b.FoodId  ORDER BY CaipuId  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\ff89641dca0fec137d187cbe5e2f2ec2.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001867s ]
+
+[ 2017-05-29T23:04:55+08:00 ] ::1 /menu/index.php/Admin/Room.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `think_bjlxmessage` [ RunTime:0.0202s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\RoomController.class.php 第 9 行.
+SQL: SELECT * FROM `think_bjlxmessage`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Undefined variable: BjlxId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 221 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\3a68201c5e9276805f58e95bd7dd0ea3.php 第 414 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001946s ]
+
+[ 2017-05-29T23:04:56+08:00 ] ::1 /menu/index.php/Admin/Menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0180s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 9 行.
+SQL: SELECT * FROM `think_foodmessage`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_fooditemmessage` [ RunTime:0.0206s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 11 行.
+SQL: SELECT * FROM `think_fooditemmessage`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0224s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemName as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+NOTIC: [8] Undefined variable: FoodId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 223 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 469 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2017-05-29T23:04:57+08:00 ] ::1 /menu/index.php/Admin/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `think_usermessage` [ RunTime:0.0173s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\UserController.class.php 第 9 行.
+SQL: SELECT * FROM `think_usermessage`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Undefined variable: UserId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 214 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001733s ]
+
+[ 2017-05-29T23:05:00+08:00 ] ::1 /menu/index.php/Admin/Diy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0478s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0442s ]
+SQL: SELECT `CaipuId`,`UserName`,`UserTelephone`,`FoodId`,`AddTime` FROM think_foodsave as a INNER JOIN think_usermessage as b ON a.UserId=b.UserId  ORDER BY CaipuId  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0200s ]
+SQL: SELECT `CaipuId`,`FoodName`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodsave as a INNER JOIN think_foodmessage as b ON a.FoodId=b.FoodId  ORDER BY CaipuId  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\ff89641dca0fec137d187cbe5e2f2ec2.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002305s ]
+
+[ 2017-05-29T23:05:04+08:00 ] ::1 /menu/index.php/Admin/Order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `think_haspaymessage` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `think_haspaymessage` [ RunTime:0.0257s ]
+SQL: SELECT a.BookId as BookId,`SwId`,`UserName`,`UserTelephone`,`BjlxName`,`BjlxSize`,`BjlxCount`,`BjlxURL`,`FoodName`,`FoodURL`,`BookPrice`,`BookTime` FROM think_haspaymessage as a,think_usermessage as b,think_bjlxmessage as c,think_swduiying as d,think_foodmessage as e WHERE ( a.UserId=b.UserId and a.BjlxId=c.BjlxId and a.BookId=d.BookId and d.FoodId=e.FoodId ) ORDER BY BookId  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\f4e214009ad75ac936bcad6ad9452214.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001904s ]
+
+[ 2017-05-29T23:05:05+08:00 ] ::1 /menu/index.php/Admin/Diy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0382s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0166s ]
+SQL: SELECT `CaipuId`,`UserName`,`UserTelephone`,`FoodId`,`AddTime` FROM think_foodsave as a INNER JOIN think_usermessage as b ON a.UserId=b.UserId  ORDER BY CaipuId  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_foodsave` [ RunTime:0.0206s ]
+SQL: SELECT `CaipuId`,`FoodName`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodsave as a INNER JOIN think_foodmessage as b ON a.FoodId=b.FoodId  ORDER BY CaipuId  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\ff89641dca0fec137d187cbe5e2f2ec2.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001658s ]
+
+[ 2017-05-29T23:23:18+08:00 ] ::1 /menu/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007480s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026953s ]
+
+[ 2017-05-29T23:23:21+08:00 ] ::1 /menu/index.php/Admin/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002083s ]
+SQL: SHOW COLUMNS FROM `think_usermessage` [ RunTime:0.5105s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\UserController.class.php 第 9 行.
+SQL: SELECT * FROM `think_usermessage`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined variable: UserId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 214 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\a92f1d2922506e26adc7a8e5abe56037.php 第 350 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2017-05-29T23:23:23+08:00 ] ::1 /menu/index.php/Admin/Menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0430s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 9 行.
+SQL: SELECT * FROM `think_foodmessage`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `think_fooditemmessage` [ RunTime:0.0920s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\menu\Apps\Admin\Controller\MenuController.class.php 第 11 行.
+SQL: SELECT * FROM `think_fooditemmessage`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_foodmessage` [ RunTime:0.0704s ]
+SQL: SELECT `FoodId`,`FoodName`,b.FoodItemName as name,`FoodIntroduce`,`FoodPrice`,`FoodURL`,`FoodUpdateTime` FROM think_foodmessage as a INNER JOIN think_fooditemmessage as b ON a.FoodItemId=b.FoodItemId  ORDER BY FoodId  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined variable: FoodId D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 223 行.
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\db3da01c8f36ad38f6ba709720b2de06.php 第 469 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2017-05-29T23:24:09+08:00 ] ::1 /menu/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2017-05-29T23:24:14+08:00 ] ::1 /menu/index.php/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002456s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006381s ]
+
+[ 2017-05-29T23:24:20+08:00 ] ::1 /menu/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005062s ]
+
+[ 2017-05-29T23:24:35+08:00 ] ::1 /menu/index.php/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000548s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003086s ]
+
+[ 2017-05-29T23:24:41+08:00 ] ::1 /menu/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Apps/Admin/View/Public/footer.html): failed to open stream: No such file or directory D:\wamp\www\menu\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined variable: light D:\wamp\www\menu\Apps\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 172 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+

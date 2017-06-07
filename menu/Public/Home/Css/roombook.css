@@ -1,0 +1,40 @@
+.roombook{
+    width:80%;
+    margin:0 auto;
+}
+
+.roombook_aside{
+    width:10%;
+    float:left;
+}
+
+
+.roombook_table{
+    width:80%;
+    float:right;
+}
+.roombook_img{
+    width:100%;
+}
+
+.roombook_table tr td:nth-child(1){
+    width:55%;
+    box-shadow: 0 3px 5px #eee;
+}
+.roombook_table tr td:nth-child(2){
+    width:15%;
+    box-shadow: 0 3px 5px #eee;
+}
+
+.roombook_table tr td:nth-child(3){
+    width:10%;
+    box-shadow: 0 3px 5px #eee;
+}
+.roombook_table tr td:nth-child(4){
+    width:10%;
+    box-shadow: 0 3px 5px #eee;
+}
+.roombook_table tr td:nth-child(5){
+    width:20%;
+    box-shadow: 0 3px 5px #eee;
+}

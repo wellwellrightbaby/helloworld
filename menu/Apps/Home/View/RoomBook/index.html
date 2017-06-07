@@ -1,0 +1,94 @@
+<extend name="Base/common"/>
+
+<block name="head">
+
+</block>
+
+<block name="body">
+
+<div class="roombook">
+
+    <!-- <aside class="roombook_aside">
+        <div class="container">
+            <nav>
+                <ul class="mcd-menu">
+                    <li>
+                        <a href="">
+                            <i class="fa fa-home"></i>
+                            <strong>吧台-单人</strong>
+                            <small>sweet home</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="active">
+                            <i class="fa fa-edit"></i>
+                            <strong>吧厅-2人</strong>
+                            <small>sweet home</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-gift"></i>
+                            <strong>大厅-4~6人</strong>
+                            <small>sweet home</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-globe"></i>
+                            <strong>露天-4~6人</strong>
+                            <small>sweet home</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-comments-o"></i>
+                            <strong>窗边-8人</strong>
+                            <small>sweet home</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-picture-o"></i>
+                            <strong>套间-12人</strong>
+                            <small>sweet home</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-picture-o"></i>
+                            <strong>豪华套间-12人</strong>
+                            <small>sweet home</small>
+                        </a>
+                    </li>
+    
+                </ul>
+            </nav>
+        </div>
+    
+    </aside> -->
+    <h1>包间预定</h1>
+    <table style="text-align: center;" class="page">
+        <tr>
+            <th><br>房间图片</th>
+            <th><br>房间名称</th>
+            <th><br>大小</th>
+            <th><br>余量</th>
+            <th><br>操作</th>
+        </tr>
+
+
+
+        <volist name="bookroom1" id="bk">
+            <tr  class="menu_list" id="">
+                <td><img src="{$bk['bjlxurl']}" alt="{$bk.bjlxname}" class="roombook_img"></td>
+                <td>{$bk.bjlxname}</td>
+                <td>{$bk.bjlxsize}人</td>
+                <td>{$bk.bjlxcount}</td>
+                <td><button class="menu_button menu_button1"><a href="{:U('RoomBook/bookroom',array('id'=>$bk['bjlxid']))}">预定</a></button></td>
+            </tr>
+        </volist>
+
+    </table>
+</div>
+</block>

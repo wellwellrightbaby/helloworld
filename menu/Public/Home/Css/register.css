@@ -1,0 +1,123 @@
+.regis_backimage{
+
+    padding-top:10%;
+    height:600px;
+    background: url("../Img/homepage/14.jpg");
+    background-size: cover;
+}
+
+/*.regist_form{
+    background-color:white;
+    width:80%;
+    margin: 10px auto;
+    opacity:0.95;
+}*/
+
+.regis_p{
+    margin:10px 50px;
+}
+.regis_p input{
+    width:80%;
+    height:25px;
+}
+.regis_p label{
+    color:#666;
+}
+
+
+
+#regis_form{
+
+    background-color: rgba(162, 162, 162, 0.50);
+    border-radius:5px;
+    /*background-color: #fdfdfd;*/
+    margin:0 auto;
+    box-shadow:
+            0 0 2px rgba(0,0,0,0.2),
+            0 1px 1px rgba(0,0,0,.2),
+            0 3px 0 #fff,
+            0 4px 0 rgba(0,0,0,.2),
+            0 6px 0 rgba(0,0,0,.2),
+            0 6px 0 #fff,
+            0 7px 0 rgba(0,0,0,.2);
+
+    z-index:0;
+    width:50%;
+}
+#regis_form:before{
+    content:'';
+    position:absolute;
+    z-index:-1;
+    /*border:1px dashed #ccc;*/
+    top:5px;
+    bottom:5px;
+    left:5px;
+    right:5px;
+    -moz-box-shadow: 0 0 0 1px #fff;
+    -webkit-box-shadow:0 0 0 1px #fff;
+    box-shadow:0 0 0 1px #fff;
+}
+#regis_form h1{
+    text-shadow:0 1px 0 rgba(255,255,255,.7),0 2px 0 rgba(0,0,0,.5);
+    text-transform:uppercase;
+    text-align: center;
+    color:#666;
+    margin:10px 10px 10px 0;
+    letter-spacing:4px;
+    font:normal 26px/1 Verdana,Helvetica;
+    position:relative;
+    padding-top: 15px;
+}
+#regis_form h1:after,h1:before{
+    background-color:#777;
+    content:"";
+    height:1px;
+    position:absolute;
+
+}
+#regis_form h1:after{
+    background-image: -webkit-gradient(linear, left top, right top, from(#777), to(#fff));
+    background-image: -webkit-linear-gradient(left, #777, #fff);
+    background-image: -moz-linear-gradient(left, #777, #fff);
+    background-image: -ms-linear-gradient(left, #777, #fff);
+    background-image: -o-linear-gradient(left, #777, #fff);
+    background-image: linear-gradient(left, #777, #fff);
+    right: 0;
+}
+
+#regis_form h1:before{
+    background-image: -webkit-gradient(linear, right top, left top, from(#777), to(#fff));
+    background-image: -webkit-linear-gradient(right, #777, #fff);
+    background-image: -moz-linear-gradient(right, #777, #fff);
+    background-image: -ms-linear-gradient(right, #777, #fff);
+    background-image: -o-linear-gradient(right, #777, #fff);
+
+    background-image: linear-gradient(right, #777, #fff);
+    left: 0;
+}
+
+
+#regis_inputs{
+    border:1px solid #ccc;
+    padding:10px;
+    margin:25px;
+    border-radius:5px;
+}
+
+
+#regis_inputs a{
+    float:right;
+    margin:10px 20px;
+    text-decoration: none;
+    color:#666;
+    font-size:12px;
+
+}
+
+#regis_submit{
+    background-color: #feca5d;
+    color: #935c10;
+    margin:5px 40px;
+    width:80px;
+    height:30px;
+}

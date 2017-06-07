@@ -1,0 +1,61 @@
+<extend name="Base/common"/>
+<block name="body">
+    <link href="__PUBLIC__/Admin/Css/detail.css" rel="stylesheet"/>
+    <div class="main-title">
+        <h3>订单详情</h3>
+    </div>
+    <form action="" class="form-horizontal" enctype="multipart/form-data">
+
+        <div class="form-item">
+            <label class="item-label">用户</label>
+            <div class="controls">
+                <input type="text" class="text input-large" readonly value="{$data['username']}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">联系方式</label>
+            <div class="controls">
+                <input type="text" class="text input-large" readonly value="{$data['usertelephone']}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">菜谱名称</label>
+            <div class="controls">
+                <input type="text" class="text input-large" readonly value="{$data['foodname']}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">菜谱图片</label>
+            <div class="controls">
+                <img src="__ROOT__/Uploads{$data['foodurl']}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">订单价格</label>
+            <div class="controls">
+                <input type="text" class="text input-large" readonly value="{$data['bookprice']}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">包间名称</label>
+            <div class="controls">
+                <input type="text" class="text input-large" readonly value="{$data['bjlxname']}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">包间大小</label>
+            <div class="controls">
+                <input type="text" class="text input-large" readonly value="{$data['bjlxsize']}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">包间图片</label>
+            <div class="controls">
+                <img src="__ROOT__/Uploads{$data['bjlxurl']}">
+            </div>
+        </div>
+        <div class="form-item" style="padding-top:10px;">
+            <button class="btn btn-return btnStyle" onclick="javascript:history.back(-1);return false;">返 回</button>
+        </div>
+    </form>
+</block>

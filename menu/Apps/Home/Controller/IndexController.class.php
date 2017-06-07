@@ -1,0 +1,15 @@
+<?php
+namespace Home\Controller;
+
+use Think\Controller;
+
+class IndexController extends Controller
+{
+    public function index(){
+
+        $this->word='you are good my little baby.';
+
+        $this->display();
+    }
+
+}

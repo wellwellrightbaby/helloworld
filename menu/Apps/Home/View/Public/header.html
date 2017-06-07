@@ -1,0 +1,73 @@
+<header>
+        <script>
+            $(function(){
+                $(".header .nav_zone li").hover(function(){
+                    var h = $(this).find(".down").outerHeight();
+                    $(".hd_bg").stop().animate({height:h});
+                    $(this).find(".down").slideDown();
+                },function(){
+                    $(".hd_bg").stop().animate({height:0});
+                    $(this).find(".down").slideUp();
+                })
+            })
+        </script>
+    </head>
+
+    <body>
+    <div class="header">
+        <a href="#" class="logo">我是logo</a> hello  !    <font style="color:blue;"> <?php echo $_SESSION['username'] ?>    </font><a href="{:U('Login/logout')}">  登录/退出</a>
+
+        <ul class="nav_zone">
+            <li>
+                <a href="/menu/index.php/Home/Index">首页</a>
+
+            </li>
+
+            <li>
+                <a href="/menu/index.php/Home/Menu">菜谱</a>
+                <!-- <div class="down">
+                    <a href="#">海鲜</a>
+                    <a href="#">花炒</a>
+                    <a href="#">饮料</a>
+                    <a href="#">小吃</a>
+                </div>  -->
+            </li>
+
+            <li>
+                <a href="/menu/index.php/Home/RoomBook">包间预定</a>
+               <!--  <div class="down">
+                   <a href="#">豪华单间</a>
+                   <a href="#">豪华双人间</a>
+                   <a href="#">豪华套房</a>
+               </div> -->
+            </li>
+
+            <li>
+                <a href="{:U('Shop/cart')}">购物车</a>
+                <div class="down">
+                    <a href="{:U('Shop/cart')}">我的购物车</a>
+                    <a href="{:U('OnesMenu/index')}">个性菜谱</a>
+                </div>
+            </li>
+
+            <!--<li>
+                <a href="/menu/index.php/Home/AboutUs">关于我们</a>
+                <div class="down">
+                    <a href="#">婚席置办</a>
+                    <a href="#">商务合作</a>
+                </div>
+            </li>-->
+            <li>
+                <a href="/menu/index.php/Home/Login" >个人中心</a>
+                <div class="down">
+                    <a href="/menu/index.php/Home/Login">登录</a>
+                    <a href="/menu/index.php/Home/Register">注册</a>
+                </div>
+            </li>
+
+        </ul>
+        <div class="hd_bg"></div>
+    </div>
+
+</header>
+

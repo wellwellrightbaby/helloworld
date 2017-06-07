@@ -1,0 +1,11 @@
+<extend name="Base/common"/>
+<block name="head"></block>
+
+<block name="body">
+<div class="pagep">
+	尊敬的{$_SESSION['username']} 先生/女士：<br><br>
+	&nbsp;&nbsp;&nbsp;您本次的订单金额为 <font style="color:red;"> {$price1}.00</font>元，请扫下方二维码进行支付！<br>
+	<img src="__PUBLIC__/Home/img/pay.png" alt="">
+	<button  class="menu_button menu_button2"><a href="{:U('Shop/haspay',array('sum',$sum1))}">支付成功</a></button>
+</div>
+	</block>

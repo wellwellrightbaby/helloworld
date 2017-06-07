@@ -1,0 +1,320 @@
+/*--主体样式--*/
+/*轮播样式*/
+#item11{
+    background-image: url(./../Img/lunbo1.jpg);
+    background-size: cover;
+}
+
+#item22{
+    background-image: url(./../Img/lunbo2.jpg);
+    background-size: cover;
+}
+
+#item33{
+    background-image: url(./../Img/lunbo3.jpg);
+    background-size: cover;
+}
+body, html {
+    font: 14px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+}
+
+*{padding: 0;margin: 0;}
+li{list-style: none;display: inline-block;}
+a{text-decoration: none;}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+}
+a:link, a:visited, body, html {
+    color: #14191e;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.pull-right {
+    float: right !important;
+}
+.pull-left {
+    float: left !important;
+}
+.hide {
+    display: none !important;
+}
+.show {
+    display: block !important;
+}
+
+body{background-color: white;}
+
+header{height: 40px;line-height: 40px;padding: 0 0;}
+.navbar-brand>img{
+    position: relative;
+    top: -10px;
+}
+#brand,.search_warp,.search_warp div,.cls{display: inline-block;float: left;}
+.search_warp{
+    /*background: orange;*/
+    width: 351px;
+    height: 42px;
+    position: relative;
+    left: 50%;
+    margin-left: -400px;
+
+}
+.search_inner_content{
+    width: 80%;
+    border-style: solid;
+    border-color: #777;
+    border-width:1px 0 1px 1px;
+    text-align: left;
+    background: pink;
+}
+.search_inner_content>span{
+    padding: 5px 10px;
+    margin-right: 15px;
+    background: #ddd;
+}
+.search_icon{
+    text-align: center;
+    padding: 0 17px;
+    border:1px solid #777;
+}
+.cls li{
+    margin-right: 10px;
+    padding: 10px;
+    border:1px solid red;
+}
+.cls li a{
+    display: block;
+    background: #fff;
+}
+/*banner*/
+.banner{
+    width: 100%;
+    /*border:1px solid green;*/
+    height: 460px;
+    position: relative;
+}
+
+#items{position: relative;}
+.item{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 460px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index:0;
+}
+#dotLists{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    margin-left: -50px;
+    text-align:center;
+    height: 20px;
+    z-index: 20;
+}
+.dot{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin:0 8px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #ccc;
+    cursor: pointer;
+}
+/* .hover{
+    background: #FF1515;
+} */
+.menuContent{
+    background: rgba(0,0,0,.3);
+    width: 224px;
+    padding-top: 6px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 300;
+    height: 455px;
+
+}
+.menuItem{
+    height: 58px;
+    line-height: 60px;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0 24px;
+    position: relative;
+    top: 30px;
+}
+.menuItem a{
+    font-size: 16px;
+    display: block;
+    color: #fff;
+    padding: 0 8px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    height: 63px;
+}
+
+/*/轮播样式*/
+
+/*推荐菜单*/
+.tuijianmenu-menu{
+    width:100%;
+    height:210px;
+    margin:20px auto;
+}
+.tuijianmenu-item{
+    width:23%;
+    margin:0 10px;
+    float:left;
+    height:200px;
+    cursor:pointer;
+}
+.arealimg{
+    margin:0;
+    width:100%;
+    height:100%;
+    border-radius:6px;
+}
+.arealimg:hover{
+    opacity:0.6;
+}
+.motai{
+    display:none;
+    width:100%;
+    height:100%;
+    position:fixed;
+    overflow:auto;
+    background-color:rgba(0,0,0,0.7);
+    top:0;
+    left:0;
+    z-index:600;
+}
+.amotaiimg{
+    display:block;
+    margin:25px auto;
+    width:50%;
+    max-width:750px;
+}
+.acaption{
+    text-align:center;
+    margin:15px auto;
+    width:60%;
+    max-height:750px;
+    font-size:20px;
+    color:#ccc;
+}
+.amotaiimg,.acaption{
+    -webkit-animation:first 1s;
+    -o-animation:first 1s;
+    animation:first 1s;
+}
+@keyframes first{
+    from{transform:scale(0.1);}
+    to{transform:scale(1);}
+}
+.close{
+    font-size:40px;
+    font-weight:bold;
+    position:absolute;
+    top:20px;
+    right:14%;
+    color:#f1f1f1;
+}
+.close:hover,.close:focus{
+    color:#bbb;
+    cursor:pointer;
+}
+@media only screen and(max-width:750px){
+    #moimg{
+        width:100%;
+    }
+}
+
+/*/推荐菜单*/
+
+/*各大菜系*/
+.gedacaixi{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+}
+.gedacaixi-item{
+    width:31%;
+    margin:5px 10px;
+    float:left;
+}
+.item1 {
+    background:url("../Img/homepage/11.jpg");
+    background-size: cover;
+}
+.item2 {
+    background:url("../Img/homepage/12.jpg");
+    background-size: cover;
+}
+.item3 {
+    background:url("../Img/homepage/13.jpg");
+    background-size: cover;
+}
+.item4 {
+    background:url("../Img/homepage/14.jpg");
+    background-size: cover;
+}
+.item5 {
+    background:url("../Img/homepage/15.jpg");
+    background-size: cover;
+}
+.item6 {
+    background:url("../Img/homepage/16.jpg");
+    background-size: cover;
+}
+.food_eat{
+    z-index: 1;
+    margin: 20px ;
+    font-size: 18px;
+}
+/*/各大菜系*/
+
+
+
+/*--/主体样式--*/
+
+
+.menu_h2 {
+    text-align: center;
+    padding-bottom:10px;
+    color: #f4dd09;
+}

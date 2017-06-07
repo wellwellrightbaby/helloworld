@@ -1,0 +1,28 @@
+<extend name="Base/common"/>
+<block name="head"></block>
+
+<block name="body">
+<div class="pagep">
+<h1>我的订单</h1>
+<table style="width:100%;">
+<tr>
+	<th style="width:30%;">预定包间图片</th>
+	<th style="width:20%;">包间容量</th>
+	<th style="width:20%;">订单价格</th>
+	<th style="width:30%;">预定时间</th>
+</tr>
+<volist name="select1" id="hp">
+<tr>
+	<td style="text-align:center;"><img src="{$hp.bjlxurl}" alt=""></td>
+	<td style="text-align:center;">{$hp.bjlxsize}人</td>
+	<td style="text-align:center;">{$hp.bookprice}.00元</td>
+	<td style="text-align:center;">{$hp.booktime}</td>
+</tr>
+
+	
+</volist>
+</table>
+</div>
+	
+	
+	</block>

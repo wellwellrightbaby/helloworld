@@ -1,0 +1,250 @@
+<extend name="Base/common"/>
+<block name="body">
+<!--中文-->
+<script src="__PUBLIC__/Admin/Bootstrap/js/bootstrap-table-zh-CN.js" type="text/javascript" ></script>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div id="toolbar">
+            <div class="btn btn-primary" data-toggle="modal" data-target="#addModal">
+                <span class="icon-plus" aria-hidden="true"></span>新建包间</div>
+        </div>
+        <!--表格start-->
+        <table id="table" data-toggle="table"
+               data-striped ="true"
+               data-toolbar="#toolbar"
+               data-pagination="true"
+               data-page-size="8">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th data-field="1">包间名</th>
+                <th data-field="2">包间大小（单位：人）</th>
+                <th data-field="3">总数</th>
+                <th data-field="4">包间图片</th>
+                <th data-field="5">操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <volist name="room" id="arr">
+                <tr>
+                    <td>{$arr.bjlxid}</td>
+                    <td>{$arr.bjlxname}</td>
+                    <td>{$arr.bjlxsize}</td>
+                    <td>{$arr.bjlxcount}</td>
+                    <td>{$arr.bjlxurl}</td>
+                    <td>
+                        <a class="btn btn-sm btn-primary" href="javascript:void(0)" onclick="editInfo(this);">
+                            <span class="icon-pencil" aria-hidden="true"></span>修改</a>
+                        <a class="btn btn-sm btn-success" href="{:U('detail',array('BjlxId'=>$arr['bjlxid']))}">
+                            <span class="icon-edit" aria-hidden="true"></span>查看</a>
+                        <a  class="btn btn-sm btn-danger"  href="javascript:void(0)" onclick="delInfo(this);">
+                            <span class="icon-remove" aria-hidden="true"></span>删除</a>
+                    </td>
+                </tr>
+            </volist>
+            </tbody>
+        </table>
+        <!--表格end-->
+    </div>
+</div>
+
+<!--新建菜谱的触发框start-->
+<div class="modal fade" id="addModal"  role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form action="{:U('Room/create')}" method="post" enctype="multipart/form-data">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">新建包间</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="hidden" name="id" value="{$BjlxId}"/>
+                        <label>包间名</label>
+                        <input type="text"  class="form-control" name="name" value="" placeholder="请输入包间名称"/>
+                    </div>
+                    <div class="form-group">
+                        <label>包间大小（单位：人）</label>
+                        <input type="text"  class="form-control" name="size"   placeholder="请输入包间大小"/>
+                    </div>
+                    <div class="form-group">
+                        <label>总数</label>
+                        <input type="text"  class="form-control" name="count"   placeholder="请输入包间总数"/>
+                    </div>
+                    <div class="form-group">
+                        <label>包间图片</label>
+                        <input type="file"  class="form-control" name="photo"/>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <!--<button type="submit" class="btn  btn-success " id="btn_add" > 保存</button>-->
+                    <!--<button type="button" class="btn  btn-default "  data-dismiss="modal">取消</button>-->
+                    <button class="btn btn-success" id="submit" type="submit" target-form="form-horizontal">确 定</button>
+                    <button class="btn btn-default" data-dismiss="modal">返 回</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!--新建栏目的触发框end-->
+
+<!-- 修改触发框start-->
+<div class="modal fade" id="upModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">修改信息</h4>
+                </div>
+
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="hidden" name="id" id="up_id"  />
+                        <label>包间名称</label>
+                        <input type="text"  class="form-control" id="up_name" name="name" />
+                    </div>
+                    <div class="form-group">
+                        <label>包间大小（单位：人）</label>
+                        <input type="text"  class="form-control" id="up_size" name="size" />
+                    </div>
+                    <div class="form-group">
+                        <label>总数</label>
+                        <input type="text"  class="form-control" id="up_count" name="count"/>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn  btn-success " id="btn_up" >保存</button>
+                    <button type="button" class="btn  btn-default "  data-dismiss="modal">取消</button>
+                    <!--<button class="btn btn-success" id="submit" type="submit" target-form="form-horizontal">保存</button>-->
+                    <!--<button class="btn btn-default" onclick="javascript:history.back(-1);return false;">返 回</button>-->
+                </div>
+
+
+            </div>
+    </div>
+</div>
+<!-- 修改模态框end-->
+
+
+<!-- 删除触发框start-->
+<div class="modal fade" id="delModal"  role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel">操作提示</h4>
+            </div>
+            <div class="modal-body">
+
+                <div class="form-group">
+                    <input type="hidden" name="id" id="del_id"  />
+                    <span class="icon-exclamation-sign  icon-large" aria-hidden="true"></span> 你确定要删除吗？
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn  btn-primary " id="btn_del" >确定</button>
+                <button type="button" class="btn  btn-default "  data-dismiss="modal">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // 触发修改模态框的同时调用此方法
+    function editInfo(obj) {
+        var tds = $(obj).parent().parent().find('td');
+        $('#up_id').val(tds.eq(0).text());
+        $('#up_name').val(tds.eq(1).text());
+        $('#up_size').val(tds.eq(2).text());
+        $('#up_count').val(tds.eq(3).text());
+        //$('#up_photo').val(tds.eq(4).text());
+        $('#upModal').modal('show');
+    }
+
+    // 触发删除模态框的同时调用此方法
+    function delInfo(obj) {
+        var tds = $(obj).parent().parent().find('td');
+        $('#del_id').val(tds.eq(0).text());
+        $('#delModal').modal('show');
+    }
+
+    //删除ajax交互
+    $(function () {
+        $('#btn_del').click(function (event) {
+            //获取模态框数据
+            var id = $('#del_id').val();
+            $.ajax({
+                type: "post",
+                url: "__URL__/del",
+                data: {BjlxId: id},
+                dataType: 'text',
+                contentType: "application/x-www-form-urlencoded; charset=utf-8",
+                success: function (data) {
+                    $('#delModal').modal('hide');
+                    var obj = new Function("return" + data)();
+                    alert(obj.info);
+                    location.reload();
+                }
+
+            });
+
+        });
+    });
+    //删除ajax交互end
+
+    //修改菜谱ajax交互
+    $(function(){
+        $('#btn_up').click(function(event){
+
+            var id = $('#up_id').val();
+            var name = $('#up_name').val();
+            var size = $('#up_size').val();
+            var count = $('#up_count').val();
+            //var photo = $('#up_photo').val();
+            if(name==""){
+                alert("包间名称不能为空！");
+                $("#up_name").focus();
+                return false;
+            }
+            if(size==""){
+                alert("包间大小不能为空！");
+                $("#up_size").focus();
+                return false;
+            }
+            if(count==""){
+                alert("包间总数不能为空！");
+                $("#up_count").focus();
+                return false;
+            }
+            $.ajax({
+                type: "post",
+                url: "__URL__/update",
+                data:  {BjlxId:id,BjlxName:name,BjlxSize:size,BjlxCount:count},
+                dataType: 'text',
+                contentType: "application/x-www-form-urlencoded; charset=utf-8",
+                success: function(data) {
+                    $('#upModal').modal('hide');
+                    var obj = new Function("return" + data)();console.log(111);
+//                     alert();
+                    alert(obj.info);
+                    location.reload();
+                }
+
+            });
+
+        });
+    });
+
+
+
+</script>
+</block>

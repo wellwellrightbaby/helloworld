@@ -1,0 +1,99 @@
+<!-- start: navbar -->
+
+<div id="wrapper">
+    <!-- Navigation -->
+    <nav class="navbar  navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <!--header left start-->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="pull-left" style="padding-left: 8px;" href="index.html"><img src="" class="center-block img-responsive"></a>
+            <a class="navbar-brand" style="padding-left: 5px;" href="index.html">花期酒店后台管理系统</a>
+        </div>
+        <!--header left end-->
+
+        <!-- header right start -->
+        <ul class="nav navbar-top-links navbar-right">
+            <span class="dropdown-toggle mya" data-toggle="dropdown" href="#" style="color: #fff;">
+                <i class="icon-user"></i> {$tid}&nbsp;
+                <!--<i class=" icon-caret-down"></i>-->
+            </span>
+            <li class="myli"><a class="btn mybtn-primary" id="btn"><i class="icon-circle-arrow-right"></i> 退出系统</a></li>
+        </ul>
+        <!-- header right end -->
+
+
+        <div class="sidebar" role="navigation">
+            <div class="sidebar-nav navbar-collapse">
+                <ul class="nav" id="menu">
+                    <li id="indexId">
+                        <a  href="{:U('/Admin/index')}">
+                            <i class="icon-home"></i>
+                            <span>首页</span>
+                        </a>
+                    </li>
+                    <li id="userId">
+                        <a href="{:U('/Admin/User')}"><i class="icon-user-md"></i>&nbsp;用户管理<span class=" icon-angle-right pull-right"></span></a>
+                    </li>
+                    <li id="menuId">
+                        <a href="{:U('/Admin/Menu')}"><i class="icon-star-empty"></i>&nbsp;菜谱发布<span class=" icon-angle-right pull-right"></span></a>
+                    </li>
+                    <li id="roomId">
+                        <a href="{:U('/Admin/Room')}"><i class="icon-building"></i>&nbsp;包间管理<span class=" icon-angle-right pull-right"></span></a>
+                    </li>
+                    <li id="diyId">
+                        <a href="{:U('/Admin/Diy')}"><i class="icon-check"></i>&nbsp;个性菜谱<span class=" icon-angle-right pull-right"></span></a>
+                    </li>
+                    <li id="orderId">
+                        <a href="{:U('/Admin/Order')}"><i class="icon-edit"></i>&nbsp;订单管理<span class=" icon-angle-right pull-right"></span></a>
+                    </li>
+                    <li id="shoppingId">
+                        <a href="{:U('/Admin/Shopping')}"><i class="icon-truck"></i>&nbsp;购物车管理<span class=" icon-angle-right pull-right"></span></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.sidebar-collapse -->
+        </div>
+        <!-- /.navbar-static-side -->
+    </nav>
+
+    <!--#page-wrapper -->
+
+    <div id="page-wrapper" style="padding-top: 10px;">
+        <block name="body"></block>
+    </div>
+    <!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+<script type="text/javascript">
+    //$('#{$light}').addClass('active');
+    <!--nav-->
+    var urlstr = location.href;
+    //alert(urlstr);
+    var urlstatus = false;
+    $("#menu a").each(function() {
+        if((urlstr + '/').indexOf($(this).attr('href')) > -1 && $(this).attr('href') != '') {
+            $(this).addClass('cur');
+            urlstatus = true;
+        } else {
+            $(this).removeClass('cur');
+        }
+    });
+    if(!urlstatus) {
+        $("#menu a").eq(0).addClass('cur');
+    }
+</script>
+<style type="text/css">
+    .cur {
+        font-weight: bold;
+        background: #235282;
+        padding: 4px 0;
+    }
+</style>
+
+

@@ -1,0 +1,15 @@
+.login-body{
+    background: #d6d6d6;
+}
+.login-panel {
+    margin-top: 22%;
+    background: #f9f9f9;
+    border: 1px solid #f6f6f6;
+}
+.admin_style{
+    font-size: 20px;
+    padding: 10px 5px 15px;
+}
+fieldset {
+    margin-bottom: 10px !important;
+}
